@@ -72,7 +72,7 @@ export const redTheme = {
 export const blackTheme = {
   body: "#000000",
   text: "#aeaeae",
-  expTxtColor: "#000a12",
+  expTxtColor: "#f2f3f4",
   highlight: "#4f5b62",
   dark: "#000a12",
   secondaryText: "#aeaeae",
