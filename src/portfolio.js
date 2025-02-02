@@ -496,7 +496,7 @@ const competitiveSites = {
   competitiveSites: [
     {
       siteName: "Medium",
-      iconifyClassname: "simple-icons:medium",
+      iconifyClassname: "cib:medium",
       style: {
         color: "black",
       },
@@ -589,27 +589,27 @@ const degrees = {
   degrees: [
     {
       title: "Savitribai Phule Pune University",
-      subtitle: "B.E. in Mechanical Engineering",
+      subtitle: "Bachelor of Engineering",
       logo_path: "sppu_img.png",
-      alt_name: "SPPU pune",
+      alt_name: "SPPU Pune",
       duration: "2017 - 2020",
       descriptions: [
-        "⚡ I have studied basic mechanical engineering subjects like Thermodynamics,SOM,TOM,Design of Machine Element,NMO etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, DSA, Docker Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Scholarship which is given to top 10% of students in college. I have received award from respected MLA for consistently best performance in academics.",
+        "⚡ I have studied core engineering subjects along with specialized courses in software development.",
+        "⚡ I have completed courses on Deep Learning, Data Structures & Algorithms (DSA), Docker, Cloud Computing, and Full Stack Development.",
+        "⚡ I was awarded a scholarship for being in the top 10% of students in college and received an academic excellence award from a respected MLA.",
       ],
       website_link: "http://www.unipune.ac.in/",
     },
     {
       title: "Maharashtra State Board of Technical Education",
-      subtitle: "Diploma in Mechanical Engineering",
+      subtitle: "Diploma in Engineering",
       logo_path: "msbte.png",
       alt_name: "MSBTE",
       duration: "2015 - 2017",
       descriptions: [
-        "⚡ I learn the Fluid Mechanics and Machinery, Manufacturing Technology-I, Theory of Machines, Fluid Power Engineering, etc",
-        "⚡ Apart from this, The subjects serve to familiarize with basic concepts of thermodynamics, solid mechanics, metallurgy, kinematics, control systems and even coding.",
-        "⚡ During my time at university, I was also associated with workshop departments.",
+        "⚡ I gained foundational knowledge in engineering and problem-solving techniques.",
+        "⚡ Apart from core subjects, I explored programming, data structures, and software development concepts.",
+        "⚡ I actively participated in technical workshops and hands-on projects that enhanced my analytical and coding skills.",
       ],
       website_link: "https://msbte.org.in/",
     },
@@ -664,13 +664,13 @@ const certifications = {
       color_code: "white",
     },
     {
-      title: "Data Structure & Algorithms",
-      subtitle: "- Masai School",
-      logo_path: "masai_logo.png",
+      title: "Cybersecurity",
+      subtitle: "- Network & Internet Security",
+      logo_path: "cyber_security_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1aEBsZLv6HWkKpuVgrAxdXsyShaGEDGjV/view?usp=sharing",
-      alt_name: "masai",
-      color_code: "black",
+        "https://drive.google.com/file/d/1bxkPk6aPJPwBD2HZRvzH-73fXSioyeRt/view?usp=sharing",
+      alt_name: "cybersecurity",
+      color_code: "orange",
     },
 
     // {
@@ -700,14 +700,14 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#4285F499",
     },
-    {
-      title: "Java Basics",
-      subtitle: "- HackerRank",
-      logo_path: "hackerrank_logo.png",
-      certificate_link: "https://www.hackerrank.com/",
-      alt_name: "hackerrank",
-      color_code: "green",
-    },
+    // {
+    //   title: "Java Basics",
+    //   subtitle: "- HackerRank",
+    //   logo_path: "hackerrank_logo.png",
+    //   certificate_link: "https://www.hackerrank.com/",
+    //   alt_name: "hackerrank",
+    //   color_code: "green",
+    // },
     {
       title: "Cloud Architecture",
       subtitle: "- Qwiklabs",
@@ -733,13 +733,22 @@ const certifications = {
       color_code: "white",
     },
     {
+      title: "Data Structure & Algorithms",
+      subtitle: "- Masai School",
+      logo_path: "masai_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1aEBsZLv6HWkKpuVgrAxdXsyShaGEDGjV/view?usp=sharing",
+      alt_name: "masai",
+      color_code: "black",
+    },
+    {
       title: "Software Testing",
       subtitle: "- IJSREM",
       logo_path: "ijsremlogo.webp",
       certificate_link:
         "https://drive.google.com/file/d/1H50K1RMjJ5OZc-3rdFntpOlpRheumni_/view",
       alt_name: "ijsremlogo",
-      color_code: "orange",
+      color_code: "yellow",
     },
   ],
 };
@@ -918,7 +927,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "vaibhavmore.png",
+    profile_image_path: "vaibhavmore_hd.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with DSA, React, Web & App Development,DB,Cloud and Opensource Development.",
   },
