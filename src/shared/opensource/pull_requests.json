@@ -1,425 +1,717 @@
 {
-    "data": [
-        {
-            "id": "PR_kwDOJq75ds5X8vsz",
-            "title": "redux auth",
-            "url": "https://github.com/mvaibhav131/react-movie-app/pull/2",
-            "state": "OPEN",
-            "mergedBy": null,
-            "createdAt": "2023-08-15T07:53:02Z",
-            "number": 2,
-            "changedFiles": 1,
-            "additions": 2,
-            "deletions": 2,
-            "baseRepository": {
-                "name": "react-movie-app",
-                "url": "https://github.com/mvaibhav131/react-movie-app",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJq75ds5X8vOK",
-            "title": "Feature/heading change",
-            "url": "https://github.com/mvaibhav131/react-movie-app/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-08-15T07:50:53Z",
-            "number": 1,
-            "changedFiles": 3,
-            "additions": 15,
-            "deletions": 2,
-            "baseRepository": {
-                "name": "react-movie-app",
-                "url": "https://github.com/mvaibhav131/react-movie-app",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJkHjic5X8s97",
-            "title": "Feature/ts migrate",
-            "url": "https://github.com/mvaibhav131/social-media-app/pull/1",
-            "state": "OPEN",
-            "mergedBy": null,
-            "createdAt": "2023-08-15T07:40:13Z",
-            "number": 1,
-            "changedFiles": 54,
-            "additions": 4304,
-            "deletions": 1021,
-            "baseRepository": {
-                "name": "social-media-app",
-                "url": "https://github.com/mvaibhav131/social-media-app",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJLKTzM5MW2Hi",
-            "title": "apply footer done",
-            "url": "https://github.com/mvaibhav131/Calculator-ReactTs/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-03-18T11:59:21Z",
-            "number": 1,
-            "changedFiles": 1,
-            "additions": 82,
-            "deletions": 2,
-            "baseRepository": {
-                "name": "Calculator-ReactTs",
-                "url": "https://github.com/mvaibhav131/Calculator-ReactTs",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJKSyS85MMiyY",
-            "title": "Merge pull request #3 from mvaibhav131/test/jest",
-            "url": "https://github.com/mvaibhav131/React-jest-test/pull/4",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-03-16T10:53:46Z",
-            "number": 4,
-            "changedFiles": 0,
-            "additions": 0,
-            "deletions": 0,
-            "baseRepository": {
-                "name": "React-jest-test",
-                "url": "https://github.com/mvaibhav131/React-jest-test",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJKSyS85MMha9",
-            "title": "Merge pull request #2 from mvaibhav131/main",
-            "url": "https://github.com/mvaibhav131/React-jest-test/pull/3",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-03-16T10:50:03Z",
-            "number": 3,
-            "changedFiles": 0,
-            "additions": 0,
-            "deletions": 0,
-            "baseRepository": {
-                "name": "React-jest-test",
-                "url": "https://github.com/mvaibhav131/React-jest-test",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJKSyS85MMg1U",
-            "title": "Merge pull request #1 from mvaibhav131/test/jest",
-            "url": "https://github.com/mvaibhav131/React-jest-test/pull/2",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-03-16T10:48:18Z",
-            "number": 2,
-            "changedFiles": 0,
-            "additions": 0,
-            "deletions": 0,
-            "baseRepository": {
-                "name": "React-jest-test",
-                "url": "https://github.com/mvaibhav131/React-jest-test",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJKSyS85MMgSu",
-            "title": "merge all",
-            "url": "https://github.com/mvaibhav131/React-jest-test/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-03-16T10:46:56Z",
-            "number": 1,
-            "changedFiles": 1,
-            "additions": 4,
-            "deletions": 2,
-            "baseRepository": {
-                "name": "React-jest-test",
-                "url": "https://github.com/mvaibhav131/React-jest-test",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOJCTic85KwYF4",
-            "title": "Firstflagcss",
-            "url": "https://github.com/mvaibhav131/indian-flag/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-02-25T12:03:04Z",
-            "number": 1,
-            "changedFiles": 1,
-            "additions": 205,
-            "deletions": 0,
-            "baseRepository": {
-                "name": "indian-flag",
-                "url": "https://github.com/mvaibhav131/indian-flag",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOI6U4mc5KT81w",
-            "title": "added test cased in button",
-            "url": "https://github.com/mvaibhav131/testing-react/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-02-20T06:17:26Z",
-            "number": 1,
-            "changedFiles": 1,
-            "additions": 14,
-            "deletions": 7,
-            "baseRepository": {
-                "name": "testing-react",
-                "url": "https://github.com/mvaibhav131/testing-react",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOI-9Lec5KNjRc",
-            "title": "added new counter function in typescripts",
-            "url": "https://github.com/mvaibhav131/Typescript/pull/2",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-02-17T11:42:40Z",
-            "number": 2,
-            "changedFiles": 2,
-            "additions": 29,
-            "deletions": 5,
-            "baseRepository": {
-                "name": "Typescript",
-                "url": "https://github.com/mvaibhav131/Typescript",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOI-9Lec5KNR3M",
-            "title": "change in salary",
-            "url": "https://github.com/mvaibhav131/Typescript/pull/1",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2023-02-17T10:40:24Z",
-            "number": 1,
-            "changedFiles": 1,
-            "additions": 3,
-            "deletions": 3,
-            "baseRepository": {
-                "name": "Typescript",
-                "url": "https://github.com/mvaibhav131/Typescript",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "mvaibhav131",
-                    "url": "https://github.com/mvaibhav131"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOHrlyi847-0Pz",
-            "title": "fix js rendering issue",
-            "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/48",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2022-07-23T09:52:46Z",
-            "number": 48,
-            "changedFiles": 4,
-            "additions": 60,
-            "deletions": 16,
-            "baseRepository": {
-                "name": "vogue-pocket-8479",
-                "url": "https://github.com/Monicapriya/vogue-pocket-8479",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "Monicapriya",
-                    "url": "https://github.com/Monicapriya"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOHrlyi84789y2",
-            "title": "form creation",
-            "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/45",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2022-07-22T14:07:03Z",
-            "number": 45,
-            "changedFiles": 9,
-            "additions": 808,
-            "deletions": 41,
-            "baseRepository": {
-                "name": "vogue-pocket-8479",
-                "url": "https://github.com/Monicapriya/vogue-pocket-8479",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "Monicapriya",
-                    "url": "https://github.com/Monicapriya"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOHrlyi8476H-5",
-            "title": "fixing modal error",
-            "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/36",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                "url": "https://github.com/mvaibhav131",
-                "login": "mvaibhav131"
-            },
-            "createdAt": "2022-07-22T04:52:34Z",
-            "number": 36,
-            "changedFiles": 12,
-            "additions": 254,
-            "deletions": 22,
-            "baseRepository": {
-                "name": "vogue-pocket-8479",
-                "url": "https://github.com/Monicapriya/vogue-pocket-8479",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "Monicapriya",
-                    "url": "https://github.com/Monicapriya"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOHrlyi8470umw",
-            "title": "adding routes to navbar",
-            "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/29",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/97354079?u=3116913857fc43307261ad80ea54a385f84ffb2f&v=4",
-                "url": "https://github.com/Nandudumare",
-                "login": "Nandudumare"
-            },
-            "createdAt": "2022-07-21T05:51:30Z",
-            "number": 29,
-            "changedFiles": 5,
-            "additions": 639,
-            "deletions": 60,
-            "baseRepository": {
-                "name": "vogue-pocket-8479",
-                "url": "https://github.com/Monicapriya/vogue-pocket-8479",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "Monicapriya",
-                    "url": "https://github.com/Monicapriya"
-                }
-            }
-        },
-        {
-            "id": "PR_kwDOHrlyi847s79n",
-            "title": "fix chakra css issue",
-            "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/24",
-            "state": "MERGED",
-            "mergedBy": {
-                "avatarUrl": "https://avatars.githubusercontent.com/u/97354079?u=3116913857fc43307261ad80ea54a385f84ffb2f&v=4",
-                "url": "https://github.com/Nandudumare",
-                "login": "Nandudumare"
-            },
-            "createdAt": "2022-07-20T05:52:03Z",
-            "number": 24,
-            "changedFiles": 8,
-            "additions": 277,
-            "deletions": 47,
-            "baseRepository": {
-                "name": "vogue-pocket-8479",
-                "url": "https://github.com/Monicapriya/vogue-pocket-8479",
-                "owner": {
-                    "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=136e338b1951f2e2c49e9f8e518afceffc82f2aa&v=4",
-                    "login": "Monicapriya",
-                    "url": "https://github.com/Monicapriya"
-                }
-            }
+  "closed": 1,
+  "data": [
+    {
+      "id": "PR_kwDON4heRs67iUh3",
+      "title": "Dev",
+      "url": "https://github.com/aptutors/website-frontend/pull/104",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2026-01-05T13:43:16Z",
+      "number": 104,
+      "changedFiles": 57,
+      "additions": 2092,
+      "deletions": 1072,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
         }
-    ],
-    "open": 2,
-    "closed": 0,
-    "merged": 15,
-    "totalCount": 17
+      }
+    },
+    {
+      "id": "PR_kwDON4hgos6yWxQ5",
+      "title": "Feature email ingegration contact us page",
+      "url": "https://github.com/aptutors/website-backend/pull/9",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2025-11-09T08:07:02Z",
+      "number": 9,
+      "changedFiles": 13,
+      "additions": 2038,
+      "deletions": 85,
+      "baseRepository": {
+        "name": "website-backend",
+        "url": "https://github.com/aptutors/website-backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4hgos6nQOd_",
+      "title": "Feature/payment integration",
+      "url": "https://github.com/aptutors/website-backend/pull/7",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65054543?u=a2c5dd4ab0799866876cdee1e15d0ce6d55523e8&v=4",
+        "url": "https://github.com/ankan1811",
+        "login": "ankan1811"
+      },
+      "createdAt": "2025-09-07T13:01:37Z",
+      "number": 7,
+      "changedFiles": 13,
+      "additions": 951,
+      "deletions": 10,
+      "baseRepository": {
+        "name": "website-backend",
+        "url": "https://github.com/aptutors/website-backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6nQOOT",
+      "title": "Feature/payment integration",
+      "url": "https://github.com/aptutors/website-frontend/pull/101",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65054543?u=a2c5dd4ab0799866876cdee1e15d0ce6d55523e8&v=4",
+        "url": "https://github.com/ankan1811",
+        "login": "ankan1811"
+      },
+      "createdAt": "2025-09-07T13:00:05Z",
+      "number": 101,
+      "changedFiles": 32,
+      "additions": 1811,
+      "deletions": 635,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6Xi3uf",
+      "title": "Bugfix open issues",
+      "url": "https://github.com/aptutors/website-frontend/pull/100",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2025-05-25T15:53:17Z",
+      "number": 100,
+      "changedFiles": 18,
+      "additions": 1020,
+      "deletions": 753,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4hgos6Vs4J8",
+      "title": "Deployment setup dev - staging - production",
+      "url": "https://github.com/aptutors/website-backend/pull/6",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2025-05-10T16:09:57Z",
+      "number": 6,
+      "changedFiles": 9,
+      "additions": 101,
+      "deletions": 42,
+      "baseRepository": {
+        "name": "website-backend",
+        "url": "https://github.com/aptutors/website-backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4hgos6U2PzL",
+      "title": "Feature docker payment service deployment",
+      "url": "https://github.com/aptutors/website-backend/pull/3",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2025-05-04T10:36:31Z",
+      "number": 3,
+      "changedFiles": 6,
+      "additions": 59,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "website-backend",
+        "url": "https://github.com/aptutors/website-backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6Sfkef",
+      "title": "Feature testimonials page",
+      "url": "https://github.com/aptutors/website-frontend/pull/41",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65054543?u=a2c5dd4ab0799866876cdee1e15d0ce6d55523e8&v=4",
+        "url": "https://github.com/ankan1811",
+        "login": "ankan1811"
+      },
+      "createdAt": "2025-04-14T13:58:41Z",
+      "number": 41,
+      "changedFiles": 24,
+      "additions": 1207,
+      "deletions": 108,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6RhgJ7",
+      "title": "Feature contact us page,faq page,about us page",
+      "url": "https://github.com/aptutors/website-frontend/pull/24",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65054543?u=a2c5dd4ab0799866876cdee1e15d0ce6d55523e8&v=4",
+        "url": "https://github.com/ankan1811",
+        "login": "ankan1811"
+      },
+      "createdAt": "2025-04-06T05:47:00Z",
+      "number": 24,
+      "changedFiles": 20,
+      "additions": 790,
+      "deletions": 35,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6QvHYA",
+      "title": "Fixes landing page,test prep page,tutoring page,footer,header,images",
+      "url": "https://github.com/aptutors/website-frontend/pull/22",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2025-03-31T07:46:39Z",
+      "number": 22,
+      "changedFiles": 29,
+      "additions": 281,
+      "deletions": 214,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6QPCbW",
+      "title": "Feature tutoring page",
+      "url": "https://github.com/aptutors/website-frontend/pull/6",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65054543?u=a2c5dd4ab0799866876cdee1e15d0ce6d55523e8&v=4",
+        "url": "https://github.com/ankan1811",
+        "login": "ankan1811"
+      },
+      "createdAt": "2025-03-26T15:49:37Z",
+      "number": 6,
+      "changedFiles": 38,
+      "additions": 801,
+      "deletions": 16,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDON4heRs6MUplA",
+      "title": "Navbar / Footer / Routes / responsive pages",
+      "url": "https://github.com/aptutors/website-frontend/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+        "url": "https://github.com/aptutors",
+        "login": "aptutors"
+      },
+      "createdAt": "2025-02-24T16:47:17Z",
+      "number": 1,
+      "changedFiles": 21,
+      "additions": 1166,
+      "deletions": 236,
+      "baseRepository": {
+        "name": "website-frontend",
+        "url": "https://github.com/aptutors/website-frontend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/198962658?v=4",
+          "login": "aptutors",
+          "url": "https://github.com/aptutors"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJq75ds5X8vsz",
+      "title": "redux auth",
+      "url": "https://github.com/mvaibhav131/react-movie-app/pull/2",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-15T07:53:02Z",
+      "number": 2,
+      "changedFiles": 1,
+      "additions": 2,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "react-movie-app",
+        "url": "https://github.com/mvaibhav131/react-movie-app",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJq75ds5X8vOK",
+      "title": "Feature/heading change",
+      "url": "https://github.com/mvaibhav131/react-movie-app/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-08-15T07:50:53Z",
+      "number": 1,
+      "changedFiles": 3,
+      "additions": 15,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "react-movie-app",
+        "url": "https://github.com/mvaibhav131/react-movie-app",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJkHjic5X8s97",
+      "title": "Feature/ts migrate",
+      "url": "https://github.com/mvaibhav131/social-media-app/pull/1",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-08-15T07:40:13Z",
+      "number": 1,
+      "changedFiles": 54,
+      "additions": 4304,
+      "deletions": 1021,
+      "baseRepository": {
+        "name": "social-media-app",
+        "url": "https://github.com/mvaibhav131/social-media-app",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJLKTzM5MW2Hi",
+      "title": "apply footer done",
+      "url": "https://github.com/mvaibhav131/Calculator-ReactTs/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-03-18T11:59:21Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 82,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "Calculator-ReactTs",
+        "url": "https://github.com/mvaibhav131/Calculator-ReactTs",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJKSyS85MMiyY",
+      "title": "Merge pull request #3 from mvaibhav131/test/jest",
+      "url": "https://github.com/mvaibhav131/React-jest-test/pull/4",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-03-16T10:53:46Z",
+      "number": 4,
+      "changedFiles": 0,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "React-jest-test",
+        "url": "https://github.com/mvaibhav131/React-jest-test",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJKSyS85MMha9",
+      "title": "Merge pull request #2 from mvaibhav131/main",
+      "url": "https://github.com/mvaibhav131/React-jest-test/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-03-16T10:50:03Z",
+      "number": 3,
+      "changedFiles": 0,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "React-jest-test",
+        "url": "https://github.com/mvaibhav131/React-jest-test",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJKSyS85MMg1U",
+      "title": "Merge pull request #1 from mvaibhav131/test/jest",
+      "url": "https://github.com/mvaibhav131/React-jest-test/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-03-16T10:48:18Z",
+      "number": 2,
+      "changedFiles": 0,
+      "additions": 0,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "React-jest-test",
+        "url": "https://github.com/mvaibhav131/React-jest-test",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJKSyS85MMgSu",
+      "title": "merge all",
+      "url": "https://github.com/mvaibhav131/React-jest-test/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-03-16T10:46:56Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 4,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "React-jest-test",
+        "url": "https://github.com/mvaibhav131/React-jest-test",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJCTic85KwYF4",
+      "title": "Firstflagcss",
+      "url": "https://github.com/mvaibhav131/indian-flag/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-02-25T12:03:04Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 205,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "indian-flag",
+        "url": "https://github.com/mvaibhav131/indian-flag",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOI6U4mc5KT81w",
+      "title": "added test cased in button",
+      "url": "https://github.com/mvaibhav131/testing-react/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-02-20T06:17:26Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 14,
+      "deletions": 7,
+      "baseRepository": {
+        "name": "testing-react",
+        "url": "https://github.com/mvaibhav131/testing-react",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOI-9Lec5KNjRc",
+      "title": "added new counter function in typescripts",
+      "url": "https://github.com/mvaibhav131/Typescript/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-02-17T11:42:40Z",
+      "number": 2,
+      "changedFiles": 2,
+      "additions": 29,
+      "deletions": 5,
+      "baseRepository": {
+        "name": "Typescript",
+        "url": "https://github.com/mvaibhav131/Typescript",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOI-9Lec5KNR3M",
+      "title": "change in salary",
+      "url": "https://github.com/mvaibhav131/Typescript/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2023-02-17T10:40:24Z",
+      "number": 1,
+      "changedFiles": 1,
+      "additions": 3,
+      "deletions": 3,
+      "baseRepository": {
+        "name": "Typescript",
+        "url": "https://github.com/mvaibhav131/Typescript",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+          "login": "mvaibhav131",
+          "url": "https://github.com/mvaibhav131"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHrlyi847-0Pz",
+      "title": "dasd",
+      "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/48",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2022-07-23T09:52:46Z",
+      "number": 48,
+      "changedFiles": 4,
+      "additions": 60,
+      "deletions": 16,
+      "baseRepository": {
+        "name": "vogue-pocket-8479",
+        "url": "https://github.com/Monicapriya/vogue-pocket-8479",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/100186167?u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4",
+          "login": "Monicapriya",
+          "url": "https://github.com/Monicapriya"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHrlyi84789y2",
+      "title": "Fw15 196 day 4",
+      "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/45",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2022-07-22T14:07:03Z",
+      "number": 45,
+      "changedFiles": 9,
+      "additions": 808,
+      "deletions": 41,
+      "baseRepository": {
+        "name": "vogue-pocket-8479",
+        "url": "https://github.com/Monicapriya/vogue-pocket-8479",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/100186167?u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4",
+          "login": "Monicapriya",
+          "url": "https://github.com/Monicapriya"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHrlyi8476H-5",
+      "title": "Fw15 196 day 3",
+      "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/36",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98808183?u=064c9645388f0ce52d98e175cf4c515a8add53be&v=4",
+        "url": "https://github.com/mvaibhav131",
+        "login": "mvaibhav131"
+      },
+      "createdAt": "2022-07-22T04:52:34Z",
+      "number": 36,
+      "changedFiles": 12,
+      "additions": 254,
+      "deletions": 22,
+      "baseRepository": {
+        "name": "vogue-pocket-8479",
+        "url": "https://github.com/Monicapriya/vogue-pocket-8479",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/100186167?u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4",
+          "login": "Monicapriya",
+          "url": "https://github.com/Monicapriya"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHrlyi8470umw",
+      "title": "Fw15 196 day 2",
+      "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/29",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97354079?u=3116913857fc43307261ad80ea54a385f84ffb2f&v=4",
+        "url": "https://github.com/Nandudumare",
+        "login": "Nandudumare"
+      },
+      "createdAt": "2022-07-21T05:51:30Z",
+      "number": 29,
+      "changedFiles": 5,
+      "additions": 639,
+      "deletions": 60,
+      "baseRepository": {
+        "name": "vogue-pocket-8479",
+        "url": "https://github.com/Monicapriya/vogue-pocket-8479",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/100186167?u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4",
+          "login": "Monicapriya",
+          "url": "https://github.com/Monicapriya"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHrlyi847s79n",
+      "title": "Fw15 196 day 1",
+      "url": "https://github.com/Monicapriya/vogue-pocket-8479/pull/24",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97354079?u=3116913857fc43307261ad80ea54a385f84ffb2f&v=4",
+        "url": "https://github.com/Nandudumare",
+        "login": "Nandudumare"
+      },
+      "createdAt": "2022-07-20T05:52:03Z",
+      "number": 24,
+      "changedFiles": 8,
+      "additions": 277,
+      "deletions": 47,
+      "baseRepository": {
+        "name": "vogue-pocket-8479",
+        "url": "https://github.com/Monicapriya/vogue-pocket-8479",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/100186167?u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4",
+          "login": "Monicapriya",
+          "url": "https://github.com/Monicapriya"
+        }
+      }
+    }
+  ],
+  "merged": 25,
+  "open": 3,
+  "totalCount": 29
 }

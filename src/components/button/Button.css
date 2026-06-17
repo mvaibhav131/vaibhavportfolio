@@ -1,27 +1,29 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background: #4361ee;
+  border: none;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
   width: max-content;
-  padding: 13px 22px;
+  padding: 14px 32px;
   margin-right: 0px;
-  /* text-transform: uppercase; */
-  border-radius: 6px;
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
   font-family: "Google Sans Regular";
   display: block;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 18px rgba(67, 97, 238, 0.35);
+  transition: all 0.3s ease;
 }
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
-  transition: ease-in 0.3s;
+  transform: translateY(-3px);
+  background: #3a0ca3;
+  box-shadow: 0 8px 28px rgba(67, 97, 238, 0.5);
+  color: white;
 }
 .project-button {
   display: flex;

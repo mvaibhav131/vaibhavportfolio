@@ -9,17 +9,42 @@ export default function GithubRepoCard({ repo, theme }) {
     win.focus();
   }
 
+  function getInitials(name) {
+    return (name || "P")
+      .replace(/[^a-zA-Z\s]/g, " ")
+      .trim()
+      .split(/\s+/)
+      .slice(0, 2)
+      .map((w) => w[0].toUpperCase())
+      .join("");
+  }
+
   return (
     <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
       <Fade bottom duration={2000} distance="40px">
         <div key={repo.id}>
-          {/* Conditionally render avatar */}
-          {repo.poster_url && (
+          {/* Poster image or gradient placeholder */}
+          {repo.poster_url ? (
             <div
               className="repo-avatar-div"
-              onClick={() => openRepoinNewTab(repo.view_url)}
+              onClick={() => repo.view_url && openRepoinNewTab(repo.view_url)}
+              style={{ cursor: repo.view_url ? "pointer" : "default" }}
             >
-              <img src={repo.poster_url} alt="avatar" className="repo-avatar" />
+              <img
+                src={repo.poster_url}
+                alt={repo.name}
+                className="repo-avatar"
+              />
+            </div>
+          ) : (
+            <div
+              className="repo-avatar-div repo-avatar-placeholder"
+              onClick={() => repo.view_url && openRepoinNewTab(repo.view_url)}
+              style={{ cursor: repo.view_url ? "pointer" : "default" }}
+            >
+              <span className="repo-placeholder-initials">
+                {getInitials(repo.name)}
+              </span>
             </div>
           )}
           <div className="repo-details">

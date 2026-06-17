@@ -6,15 +6,16 @@ import PullRequestData from "../../shared/opensource/pull_requests.json";
 
 class PullRequestChart extends Component {
   render() {
+    const prs = PullRequestData.data || [];
+    const open = prs.filter((p) => p.state === "OPEN").length;
+    const merged = prs.filter((p) => p.state === "MERGED").length;
+    const closed = prs.filter((p) => p.state === "CLOSED").length;
+
     const data = {
       labels: ["Open", "Merged", "Closed"],
       datasets: [
         {
-          data: [
-            PullRequestData["open"],
-            PullRequestData["merged"],
-            PullRequestData["closed"],
-          ],
+          data: [open, merged, closed],
           backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
           hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
         },

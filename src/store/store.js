@@ -8,10 +8,18 @@
 // export default store;
 
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
-const useThemeStore = create((set) => ({
-  theme: "white",
-  setTheme: (newTheme) => set({ theme: newTheme }),
-}));
+const useThemeStore = create(
+  persist(
+    (set) => ({
+      theme: "white",
+      setTheme: (newTheme) => set({ theme: newTheme }),
+    }),
+    {
+      name: "portfolio-theme", // localStorage key
+    }
+  )
+);
 
 export default useThemeStore;

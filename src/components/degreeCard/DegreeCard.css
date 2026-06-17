@@ -69,6 +69,8 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: "Google Sans Regular";
+  font-size: var(--font-card-body);
+  line-height: var(--line-height-body);
 }
 
 .card-body {

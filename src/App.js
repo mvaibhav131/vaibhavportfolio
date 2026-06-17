@@ -20,6 +20,7 @@ import {
 } from "./theme";
 import { GlobalStyles } from "./global";
 import useThemeStore from "./store/store";
+import ThemePicker from "./components/themePicker/ThemePicker";
 
 function App() {
   const theme = useThemeStore((state) => state.theme);
@@ -81,6 +82,7 @@ function App() {
         <div>
           <Main theme={selectedTheme} />
         </div>
+        <ThemePicker mobileOnly />
       </>
     </ThemeProvider>
   );

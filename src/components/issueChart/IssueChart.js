@@ -6,11 +6,15 @@ import IssueData from "../../shared/opensource/issues.json";
 
 class IssueChart extends Component {
   render() {
+    const issues = IssueData.data || [];
+    const open = issues.filter((i) => i.closed === false).length;
+    const closed = issues.filter((i) => i.closed === true).length;
+
     const data = {
       labels: ["Open", "Closed"],
       datasets: [
         {
-          data: [IssueData["open"], IssueData["closed"]],
+          data: [open, closed],
           backgroundColor: ["#28a745", "#d73a49"],
           hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
         },

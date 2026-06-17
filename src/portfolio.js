@@ -87,404 +87,306 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux & NextJS.",
-        "⚡ Developing mobile applications using React Native .",
-        "⚡ Developing desktop applications using ElectronJS .",
-        "⚡ Testing applications using Cypress,Jest,Selenium,Supertest,Mocha.",
-        "⚡ Creating application backend in NodeJS, Express, NestJS.",
+        "⚡ Building scalable, performant frontends using React.js, Next.js, TypeScript, and Vite with component-driven architecture.",
+        "⚡ Designing and developing RESTful and GraphQL APIs using Node.js, Express.js, and NestJS following clean architecture principles.",
+        "⚡ Developing cross-platform mobile applications using React Native.",
+        "⚡ Implementing state management solutions using Redux, Zustand, and React Context.",
+        "⚡ Establishing automated testing pipelines with Jest, Cypress, Mocha, Supertest, and React Testing Library.",
+        "⚡ Integrating WebSockets and real-time communication using Socket.io.",
       ],
       softwareSkills: [
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          style: { color: "#E34F26" },
         },
         {
           skillName: "CSS3",
           fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "logos:sass",
-          style: {
-            color: "#CC6699",
-          },
+          style: { color: "#1572B6" },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          style: { backgroundColor: "#000000", color: "#F7DF1E" },
         },
         {
           skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#02569B",
-          },
+          style: { color: "#3178C6" },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos:nextjs-icon",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "logos:redux",
+          style: { color: "#764ABC" },
+        },
+        {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
+          style: { color: "#38B2AC" },
+        },
+        {
+          skillName: "Vite",
+          fontAwesomeClassname: "logos:vitejs",
+          style: { color: "#646CFF" },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "logos:nodejs-icon",
+          style: { color: "#339933" },
         },
         {
           skillName: "Express",
           fontAwesomeClassname: "skill-icons:expressjs-dark",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "logos-java",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "AntDesign",
-          fontAwesomeClassname: "simple-icons:antdesign",
-          style: {
-            color: "blue",
-          },
-        },
-        {
-          skillName: "Webpack",
-          fontAwesomeClassname: "logos-webpack",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Replit",
-          fontAwesomeClassname: "skill-icons:replit-light",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Chai",
-          fontAwesomeClassname: "logos:chai",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "Material UI",
-          fontAwesomeClassname: "simple-icons:materialdesignicons",
-          style: {
-            color: "red",
-          },
-        },
-        {
-          skillName: "React Native",
-          fontAwesomeClassname: "tabler:brand-react-native",
-          style: {
-            color: "green",
-          },
-        },
-        {
-          skillName: "Tailwind",
-          fontAwesomeClassname: "skill-icons:tailwindcss-dark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Electron JS",
-          fontAwesomeClassname: "logos:electron",
-          style: {
-            color: "#CB3800",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "logos:bootstrap",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
+          style: { color: "#000000" },
         },
         {
           skillName: "NestJs",
           fontAwesomeClassname: "logos:nestjs",
-          style: {
-            color: "red",
-          },
+          style: { color: "#E0234E" },
         },
         {
-          skillName: "Selenium",
-          fontAwesomeClassname: "simple-icons:selenium",
-          style: {
-            color: "#339933",
-          },
+          skillName: "GraphQL",
+          fontAwesomeClassname: "logos:graphql",
+          style: { color: "#E10098" },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "logos:nodejs-icon-alt",
-          style: {
-            color: "blue",
-          },
+          skillName: "Socket.io",
+          fontAwesomeClassname: "simple-icons:socketdotio",
+          style: { color: "#010101" },
         },
-
         {
-          skillName: "NextJS",
-          fontAwesomeClassname: "logos:nextjs-icon",
-          style: {
-            color: "gray",
-          },
+          skillName: "React Native",
+          fontAwesomeClassname: "tabler:brand-react-native",
+          style: { color: "#61DAFB" },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "logos:sass",
+          style: { color: "#CC6699" },
         },
         {
           skillName: "Jest",
           fontAwesomeClassname: "logos:jest",
-          style: {
-            color: "#CC6699",
-          },
+          style: { color: "#C21325" },
         },
         {
           skillName: "Cypress",
           fontAwesomeClassname: "logos:cypress-icon",
-          style: {
-            color: "#443399",
-          },
-        },
-        {
-          skillName: "Mocha",
-          fontAwesomeClassname: "logos:mocha",
-          style: {
-            color: "#61KAFB",
-          },
+          style: { color: "#17202C" },
         },
         {
           skillName: "Swagger",
           fontAwesomeClassname: "logos:swagger",
-          style: {
-            color: "#CB3837",
-          },
+          style: { color: "#85EA2D" },
+        },
+        {
+          skillName: "Webpack",
+          fontAwesomeClassname: "logos:webpack",
+          style: { color: "#8DD6F9" },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud, DevOps & Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying learning models on Netlify and Vercel.",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Architecting and deploying event-driven serverless applications on AWS using Lambda, API Gateway, SQS, S3, and EC2.",
+        "⚡ Containerising applications with Docker and orchestrating deployments using Kubernetes.",
+        "⚡ Setting up and managing CI/CD pipelines using Atlassian Bamboo, GitHub Actions, and automated deployment workflows.",
+        "⚡ Designing microservice architectures with inter-service communication via REST, message queues (SQS, RabbitMQ), and event streams (Kafka).",
+        "⚡ Managing cloud infrastructure across AWS, GCP, and Azure with a focus on scalability, security, and cost optimisation.",
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "GoDaddy",
-          fontAwesomeClassname: "simple-icons:godaddy",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
+          fontAwesomeClassname: "logos:aws",
+          style: { color: "#FF9900" },
         },
         {
-          skillName: "Insomnia",
-          fontAwesomeClassname: "simple-icons:insomnia",
-          style: {
-            color: "#336791",
-          },
+          skillName: "EC2",
+          fontAwesomeClassname: "simple-icons:amazonec2",
+          style: { color: "#FF9900" },
+        },
+        {
+          skillName: "S3",
+          fontAwesomeClassname: "simple-icons:amazons3",
+          style: { color: "#569A31" },
+        },
+        {
+          skillName: "Lambda",
+          fontAwesomeClassname: "simple-icons:awslambda",
+          style: { color: "#FF9900" },
+        },
+        {
+          skillName: "SQS",
+          fontAwesomeClassname: "simple-icons:amazonsqs",
+          style: { color: "#FF4F8B" },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "logos:google-cloud",
+          style: { color: "#4285F4" },
         },
         {
           skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "Digital Ocean",
-          fontAwesomeClassname: "simple-icons:digitalocean",
-          style: {
-            color: "blue",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "simple-icons:vercel",
-          style: {
-            color: "gray",
-          },
+          fontAwesomeClassname: "logos:microsoft-azure",
+          style: { color: "#0089D6" },
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          fontAwesomeClassname: "logos:docker-icon",
+          style: { color: "#1488C6" },
         },
         {
           skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          fontAwesomeClassname: "logos:kubernetes",
+          style: { color: "#326CE5" },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "logos:nginx",
+          style: { color: "#009639" },
+        },
+        {
+          skillName: "CI/CD",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: { color: "#2088FF" },
+        },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "logos:terraform-icon",
+          style: { color: "#7B42BC" },
         },
         {
           skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#4285N5",
-          },
+          fontAwesomeClassname: "logos:netlify",
+          style: { color: "#00C7B7" },
+        },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "logos:vercel-icon",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "logos:heroku-icon",
+          style: { color: "#430098" },
         },
       ],
     },
 
     {
-      title: "UI/UX Design",
+      title: "UI/UX & Product Thinking",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Designing intuitive, accessible user interfaces for web and mobile applications using Figma and Adobe XD.",
+        "⚡ Translating wireframes and prototypes into pixel-perfect, responsive React components.",
+        "⚡ Collaborating with product managers using Agile/Scrum methodologies and tools like Jira and Confluence.",
+        "⚡ Applying UX best practices — user flows, component libraries, design systems — to ensure consistent product experiences.",
       ],
       softwareSkills: [
         {
-          skillName: "Jira",
-          fontAwesomeClassname: "logos:jira",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
           skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
+          fontAwesomeClassname: "logos:figma",
+          style: { color: "#F24E1E" },
         },
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          style: { color: "#FF2BC2" },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
+          skillName: "Jira",
+          fontAwesomeClassname: "logos:jira",
+          style: { color: "#0052CC" },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          skillName: "Confluence",
+          fontAwesomeClassname: "logos:confluence",
+          style: { color: "#172B4D" },
+        },
+        {
+          skillName: "Notion",
+          fontAwesomeClassname: "logos:notion-icon",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Storybook",
+          fontAwesomeClassname: "logos:storybook-icon",
+          style: { color: "#FF4785" },
         },
       ],
     },
     {
-      title: "Data Management & ML",
+      title: "Databases & System Design",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience of working with Database Management and Queries handling in projects.",
+        "⚡ Designing and optimising relational databases (PostgreSQL, MySQL, Oracle) and non-relational stores (MongoDB, Redis).",
+        "⚡ Building event-driven data pipelines using Apache Kafka, RabbitMQ, and AWS SQS for asynchronous inter-service communication.",
+        "⚡ Applying system design principles including CAP theorem, eventual consistency, caching strategies, and database indexing.",
+        "⚡ Working with ORM/ODM tools such as Prisma, TypeORM, Mongoose, and Sequelize for efficient data access layers.",
       ],
       softwareSkills: [
         {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb",
+          style: { color: "#47A248" },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos:postgresql",
+          style: { color: "#336791" },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql-icon",
+          style: { color: "#4479A1" },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: { color: "#DC382D" },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "logos:firebase",
+          style: { color: "#FFCA28" },
+        },
+        {
+          skillName: "Prisma",
+          fontAwesomeClassname: "logos:prisma",
+          style: { color: "#2D3748" },
+        },
+        {
           skillName: "Mongoose",
           fontAwesomeClassname: "simple-icons:mongoosedotws",
-          style: {
-            backgroundColor: "",
-            color: "red",
-          },
+          style: { color: "#880000" },
         },
         {
           skillName: "Apache Kafka",
           fontAwesomeClassname: "simple-icons:apachekafka",
-          style: {
-            color: "black",
-          },
+          style: { color: "#231F20" },
         },
         {
           skillName: "RabbitMQ",
           fontAwesomeClassname: "simple-icons:rabbitmq",
-          style: {
-            color: "orange",
-          },
+          style: { color: "#FF6600" },
         },
         {
           skillName: "Elastic Search",
-          fontAwesomeClassname: "logos-elasticsearch",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Redis",
-          fontAwesomeClassname: "logos-redis",
+          fontAwesomeClassname: "logos:elasticsearch",
+          style: { color: "#005571" },
         },
       ],
     },
@@ -758,7 +660,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as Frontend and Backend Developer, Designer,Tester and Software Engineer. I have also worked with some well established companies mostly as Full Stack Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Full Stack Senior Software Engineer with hands-on experience building scalable web and mobile applications across startups and product companies. I have worked across the complete stack — from crafting performant React and TypeScript frontends to architecting Node.js microservices deployed on AWS. I thrive in fast-paced environments, take ownership of end-to-end delivery, and enjoy mentoring teams to build better software.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -767,13 +669,24 @@ const experience = {
       experiences: [
         {
           title: "Senior Software Engineer",
+          company: "Kerv Digital",
+          company_url: "https://kerv.com/",
+          logo_path: "kerv_logo.png",
+          duration: "Dec 2025 - Present",
+          location: "Pune, Maharashtra",
+          description:
+            "Designing and developing scalable full-stack applications using React.js, TypeScript, and Vite on the frontend, and Node.js microservices on the backend. Architecting event-driven, serverless solutions leveraging AWS Lambda, API Gateway, SQS, S3, and EC2 to ensure high availability and fault tolerance. Implementing CI/CD pipelines using Atlassian Bamboo for automated build, test, and deployment workflows. Following clean architecture and SOLID principles to maintain loosely coupled, independently deployable services. Conducting code reviews, contributing to system design decisions, and mentoring junior engineers to uphold engineering standards across the team.",
+          color: "#0052CC",
+        },
+        {
+          title: "Senior Software Engineer",
           company: "Esyasoft Technologies",
           company_url: "https://www.esyasoft.com/",
           logo_path: "esyasoft_logo.png",
-          duration: "June 2023 - Present",
+          duration: "June 2023 - Dec 2025",
           location: "Bangalore, Karnataka",
           description:
-            "In my current capacity as a Senior Software Engineer at Esyasoft Technology, I have taken on a leadership role in the frontend domain, leveraging React.js and Redux to architect sophisticated user interfaces that seamlessly integrate with backend systems. Additionally, I have harnessed the power of AWS and Node.js for efficient deployment and smooth functioning of applications. My proficiency extends to incorporating Swagger for meticulous API documentation and Jira for streamlined project management. To ensure code integrity, I've utilized SCSS for creating structured and visually appealing styles. As a senior team member, I've undertaken the responsibility of managing and coordinating tasks, drawing upon my comprehensive skill set. Furthermore, my dedication to quality assurance is reflected in my adept use of automation testing tools, ensuring code robustness and optimal user experiences.",
+            "Led end-to-end frontend engineering using React.js, Redux, and SCSS, delivering component-driven UIs integrated with complex backend systems. Built and deployed RESTful Node.js services on AWS (EC2, S3, Lambda), ensuring high performance and cloud reliability. Defined and documented APIs using Swagger/OpenAPI, improving cross-team collaboration and developer experience. Designed and implemented automated testing strategies including unit, integration, and end-to-end tests, significantly reducing release regression cycles. Drove sprint planning, code reviews, and technical mentorship for junior developers, fostering a culture of quality and continuous improvement.",
           color: "#0879bf",
         },
         {
@@ -781,10 +694,10 @@ const experience = {
           company: "GrowthPal Technologies",
           company_url: "https://www.growthpal.com/",
           logo_path: "growthpal_logo.jpeg",
-          duration: "Sept 2022 - June 2023",
+          duration: "Oct 2022 - May 2023",
           location: "Pune, Maharashtra",
           description:
-            "Embarking on a new chapter at Growthpal Technology as a software engineer, I embraced a dynamic role that spanned both backend and frontend realms. In the backend landscape, I skillfully orchestrated operations utilizing a repertoire of technologies such as Swagger, Express.js, Node.js, AWS, and Kubernetes, elevating functionality and reliability. My proficiency further extended to automated testing, where I adeptly employed Jest, Mocha, and Supertest to ensure the robustness of the codebase. Simultaneously, in the frontend domain, I harnessed the power of React.js and Redux to craft immersive user interfaces, enhancing user experiences with responsive design and maintaining code scalability. Additionally, I employed SCSS to bring creativity and structure to the styles. My commitment to automation led me to utilize Cypress, an automation tool, which significantly streamlined testing processes",
+            "Developed and maintained full-stack features across a product-focused engineering team. Built RESTful and GraphQL APIs using Node.js and Express.js, deployed on AWS with Kubernetes orchestration for horizontal scaling. Engineered responsive, accessible frontends using React.js, Redux, and SCSS. Implemented comprehensive test coverage using Jest, Mocha, Supertest, and Cypress across unit, integration, and E2E test suites. Collaborated with product managers and designers in an Agile/Scrum environment, consistently delivering features on schedule while maintaining code quality and peer review standards.",
           color: "#9b1578",
         },
         {
@@ -792,11 +705,22 @@ const experience = {
           company: "Cognizant Technology Solutions",
           company_url: "https://www.cognizant.com/",
           logo_path: "cognizant_logo.jpeg",
-          duration: "Nov 2021 - Sept 2022",
-          location: "Pune, Maharashtra",
+          duration: "Feb 2022 - Oct 2022",
+          location: "Pune, Maharashtra (Remote)",
           description:
-            "As a software developer at Cognizant, I held a pivotal role focused on database management, encompassing a wide spectrum from SQL and NoSQL to Oracle databases. I adeptly navigated through these diverse database technologies, harnessing their potential to enhance software solutions and drive optimal performance.",
+            "Worked as a Software Developer focusing on database design and management for enterprise-scale applications. Wrote complex SQL queries, stored procedures, and optimised data pipelines across relational (Oracle, MySQL) and non-relational (MongoDB) databases. Collaborated with senior engineers to analyse data requirements, improve query performance, and ensure data integrity. Gained exposure to large-scale enterprise software delivery processes, Agile methodologies, and production-grade deployment practices.",
           color: "#fc1f20",
+        },
+        {
+          title: "Full Stack Development Trainee",
+          company: "Masai School",
+          company_url: "https://www.masaischool.com/",
+          logo_path: "masai_logo.png",
+          duration: "Feb 2021 - Feb 2022",
+          location: "Bangalore, Karnataka (Remote)",
+          description:
+            "Underwent an intensive, full-time full-stack development programme at Masai School, gaining proficiency in JavaScript (ES6+), React.js, Node.js, Express.js, MongoDB, and RESTful API development. Built and deployed multiple end-to-end web applications, applying agile workflows, Git version control, and peer code reviews. Strengthened core computer science fundamentals including Data Structures and Algorithms (DSA), problem-solving, and system design. The rigorous curriculum and project-based learning provided the technical foundation to transition directly into professional software engineering roles.",
+          color: "#ee4b2b",
         },
       ],
     },
@@ -929,30 +853,29 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "vaibhavmore_hd.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with DSA, React, Web & App Development,DB,Cloud and Opensource Development.",
+      "I'm always open to discussing new opportunities, interesting projects, or just a good tech conversation. Whether you have a question, want to collaborate, or simply want to say hi — feel free to reach out. I typically respond within 24 hours.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+      "I write about full-stack development, cloud architecture, and the engineering decisions behind building scalable systems. My goal is to share practical insights that help developers level up in their craft.",
     link: "https://medium.com/@vaibhavmore24051997/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Shiroli Khurd, Junnar, T.A.-Junnar, Dist.-Pune, Maharashtra - 410511",
-    locality: "Junnar",
+    title: "Location",
+    subtitle: "Pune, Maharashtra, India",
+    locality: "Pune",
     country: "IN",
     region: "Maharashtra",
-    postalCode: "410511",
-    streetAddress: "Shiroli Khurd",
+    postalCode: "411001",
+    streetAddress: "Pune",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/PR1PVPj8czS59xiRA",
+    location_map_link: "https://maps.google.com/?q=Pune,Maharashtra,India",
   },
   phoneSection: {
-    title: "Mobile No",
-    subtitle: "+91-8308481276",
+    title: "Email",
+    subtitle: "vaibhavmore24051997@gmail.com",
   },
 };
 

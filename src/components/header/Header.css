@@ -2,9 +2,16 @@
 
 .header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  max-width: 100%;
+  padding: 0 5%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  /* background set via inline style in Header.js using theme colors */
+  transition: box-shadow 0.3s ease;
 }
 
 .header ul {
@@ -12,7 +19,6 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  /* background-color: #fff; */
 }
 .grey-color {
   color: #868e96;
@@ -20,15 +26,36 @@
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  /* color: black; */
+  padding: 20px 18px;
   text-decoration: none;
+  font-weight: 500;
+  font-size: var(--font-nav);
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  position: relative;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
-  border-radius: 20px;
-  /* background-color: #A6E1FA; */
+.header li a::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 18px;
+  right: 18px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.header li a:hover::after,
+.header li a.active::after {
+  transform: scaleX(1);
+}
+
+.header li a:hover {
+  background: transparent;
+  opacity: 0.8;
 }
 
 .header .logo {
@@ -38,12 +65,19 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  transition: opacity 0.2s ease;
 }
+
+.header .logo:hover {
+  opacity: 0.75;
+}
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
   padding: 0 10px;
-  /* color: #55198b; */
+  color: var(--accent);
+  -webkit-text-fill-color: var(--accent);
 }
 
 /* menu */
@@ -64,9 +98,10 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 22px 10px;
   position: relative;
   user-select: none;
+  margin-top: 4px;
 }
 
 .header .menu-icon .navicon {
@@ -134,7 +169,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 0;
+    padding: 0 5%;
   }
   .header .menu {
     max-height: none;
@@ -142,10 +178,55 @@
   .header .menu-icon {
     display: none;
   }
+  .header-mobile-right {
+    display: none;
+  }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+
+@media (max-width: 768px) {
   .header {
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 4%;
+    min-height: 60px;
+  }
+
+  .header .logo {
+    margin-top: 0;
+    padding: 14px 0;
+  }
+
+  /* right side — ThemePicker + hamburger */
+  .header-mobile-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header .menu-icon {
+    float: none;
+    padding: 14px 8px;
+    margin-top: 0;
+  }
+
+  /* menu dropdown full width */
+  .header .menu {
+    width: 100%;
+    flex-basis: 100%;
+    background: linear-gradient(
+      135deg,
+      rgba(102, 126, 234, 0.08) 0%,
+      rgba(118, 75, 162, 0.06) 100%
+    );
+    backdrop-filter: blur(14px);
+    border-top: 1px solid rgba(102, 126, 234, 0.15);
+    border-radius: 0 0 12px 12px;
+  }
+
+  .theme-toggle-container {
+    margin: 6px 0;
   }
 }
 

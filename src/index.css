@@ -2,43 +2,51 @@
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: local("Agustina Regular"),
     url("./assests/fonts/Agustina.woff") format("woff");
 }
 @font-face {
   font-family: "Montserrat";
+  font-display: swap;
   src: local("Montserrat"),
-    url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
+    url("./assests/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Bold";
+  font-display: swap;
   src: local("Google Sans Bold"),
-    url("./assests/fonts/GoogleSans-Bold.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Bold Italic";
+  font-display: swap;
   src: local("Google Sans Bold Italic"),
-    url("./assests/fonts/GoogleSans-BoldItalic.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-BoldItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Italic";
+  font-display: swap;
   src: local("Google Sans Italic"),
-    url("./assests/fonts/GoogleSans-Italic.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Medium";
+  font-display: swap;
   src: local("Google Sans Medium"),
-    url("./assests/fonts/GoogleSans-Medium.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Medium Italic";
+  font-display: swap;
   src: local("Google Sans Medium Italic"),
-    url("./assests/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-MediumItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Google Sans Regular";
+  font-display: swap;
   src: local("Google Sans Regular"),
-    url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
+    url("./assests/fonts/GoogleSans-Regular.ttf") format("truetype");
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -48,6 +56,36 @@ html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+/* ===== Global Typography Scale ===== */
+:root {
+  --font-page-h1: 59px;
+  --font-section-h2: 33px;
+  --font-body: 23px;
+  --font-card-body: 19px;
+  --font-nav: 18px;
+  --font-footer: 17px;
+  --line-height-body: 1.65;
+}
+
+@media (max-width: 1380px) {
+  :root {
+    --font-page-h1: 53px;
+    --font-section-h2: 28px;
+    --font-body: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-page-h1: 30px;
+    --font-section-h2: 20px;
+    --font-body: 16px;
+    --font-card-body: 14px;
+    --font-nav: 15px;
+    --font-footer: 14px;
+  }
 }
 body {
   margin: 0;

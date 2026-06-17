@@ -1,0 +1,131 @@
+/* -- Wrapper (desktop: inline in header) ----------------------- */
+.theme-picker-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* -- Mobile floating variant (added via mobileOnly prop) ------- */
+.theme-picker-wrapper.mobile-floating {
+  display: none; /* hidden on desktop */
+  position: fixed;
+  bottom: 80px;
+  right: 16px;
+  z-index: 9999;
+}
+
+@media (max-width: 768px) {
+  .theme-picker-wrapper.mobile-floating {
+    display: flex;
+  }
+}
+
+/* -- FAB button ------------------------------------------------- */
+.theme-picker-fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 4px 14px rgba(102, 126, 234, 0.5);
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.theme-picker-fab:hover {
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.65);
+}
+
+/* -- Panel ------------------------------------------------------ */
+.theme-picker-panel {
+  position: fixed;
+  top: 64px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.25);
+  z-index: 99999;
+  min-width: 168px;
+  height: fit-content;
+  animation: slideDown 0.2s ease;
+}
+
+/* Mobile: panel opens just above the floating FAB */
+@media (max-width: 768px) {
+  .theme-picker-panel {
+    top: auto;
+    bottom: 132px;
+    right: 14px;
+    animation: slideUp 0.2s ease;
+  }
+}
+
+/* -- Animations ------------------------------------------------- */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -- Panel contents --------------------------------------------- */
+.theme-picker-title {
+  margin: 0 0 10px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #555;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Google Sans Regular";
+}
+
+.theme-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.theme-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.theme-circle:hover {
+  transform: scale(1.2);
+}
+
+.theme-circle.active {
+  border-color: #4361ee;
+  transform: scale(1.15);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #4361ee;
+}

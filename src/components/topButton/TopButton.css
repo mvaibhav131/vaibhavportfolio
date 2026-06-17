@@ -9,3 +9,13 @@
   border-radius: 2rem;
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  #topButton {
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 1.5rem;
+  }
+}

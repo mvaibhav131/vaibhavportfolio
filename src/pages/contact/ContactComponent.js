@@ -26,8 +26,9 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
+                  className="contact-profile-img"
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="Vaibhav More"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -117,11 +118,16 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {phoneSection["subtitle"]}
+                  <a
+                    href={`mailto:${phoneSection["subtitle"]}`}
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {phoneSection["subtitle"]}
+                  </a>
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text="View on Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}

@@ -27,6 +27,8 @@
 
 .subTitle {
   color: #868e96;
+  font-size: var(--font-body);
+  line-height: var(--line-height-body);
 }
 
 /* Animations */
