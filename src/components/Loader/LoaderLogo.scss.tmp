@@ -1,0 +1,27 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   Splash Loader — animated ring + VM monogram + name reveal + loading dots
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.splash-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  /* deep charcoal-navy — dark but NOT pure black */
+  background: linear-gradient(155deg, #0e1120 0%, #131729 60%, #0b0e1a 100%);
+  gap: 1rem;
+  font-family: "Google Sans Regular", "Segoe UI", Arial, sans-serif;
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 55% 40% at 50% 42%, color-mix(in srgb, var(--accent, #667eea) 18%, transparent) 0%, transparent 70%);
+    pointer-events: none;
+    animation: ambient-pulse 3s ease-in-out infinite;
+  }
+}

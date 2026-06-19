@@ -1,0 +1,51 @@
+/*
+ * PortfolioChatBot.scss
+ * Overrides for react-chatbotify to fix positioning,
+ * hide tooltip, and keep options visually active.
+ */
+
+/* ── Force chat window to LEFT side ─────────────────────────────────── */
+.rcb-chat-window {
+  left: 1.5rem !important;
+  right: unset !important;
+  width: 370px !important;
+  max-width: calc(100vw - 2rem) !important;
+  height: 530px !important;
+  max-height: 80vh !important;
+}
+
+/* ── Remove notification badge ───────────────────────────────────────── */
+.rcb-badge {
+  display: none !important;
+}
+
+/* ── Tooltip — show to the RIGHT of the left-side FAB ───────────────── */
+/* Library default puts it left with right-pointing tail — we flip both  */
+.rcb-chat-tooltip {
+  left: 5rem !important;   /* just right of the ~52px button */
+  right: unset !important;
+  bottom: 1.8rem !important;
+}
+
+.rcb-chat-tooltip-tail {
+  right: unset !important;
+  left: -10px !important;                                    /* tail on LEFT side */
+  border-width: 10px 10px 10px 0 !important;                 /* right-pointing triangle */
+  border-color: transparent !important;
+  border-right-color: inherit !important;                    /* match bubble color */
+}
+
+/* ── Options: never grey out / disable appearance ────────────────────── */
+.rcb-options:disabled,
+.rcb-options[disabled],
+.rcb-options-container .rcb-options,
+.rcb-options-container .rcb-options:disabled,
+.rcb-options-container button:disabled,
+.rcb-options-container button[disabled] {
+  opacity: 1 !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  filter: none !important;
+  color: inherit !important;
+  background: inherit !important;
+}
