@@ -21,4 +21,4 @@ root.render(
   </StyletronProvider>
 );
 
-serviceWorker.register();
+serviceWorker.unregister();
