@@ -8,10 +8,23 @@
 .rcb-chat-window {
   left: 1.5rem !important;
   right: unset !important;
+  bottom: 5.5rem !important;
   width: 370px !important;
   max-width: calc(100vw - 2rem) !important;
   height: 530px !important;
-  max-height: 80vh !important;
+  max-height: calc(100vh - 8rem) !important;
+}
+
+/* ── Mobile: prevent window from going off-screen top ───────────────── */
+@media (max-width: 768px) {
+  .rcb-chat-window {
+    left: 0.75rem !important;
+    right: 0.75rem !important;
+    width: auto !important;
+    bottom: 5rem !important;
+    height: 70vh !important;
+    max-height: calc(100vh - 10rem) !important;
+  }
 }
 
 /* ── Remove notification badge ───────────────────────────────────────── */
@@ -22,17 +35,17 @@
 /* ── Tooltip — show to the RIGHT of the left-side FAB ───────────────── */
 /* Library default puts it left with right-pointing tail — we flip both  */
 .rcb-chat-tooltip {
-  left: 5rem !important;   /* just right of the ~52px button */
+  left: 5rem !important; /* just right of the ~52px button */
   right: unset !important;
   bottom: 1.8rem !important;
 }
 
 .rcb-chat-tooltip-tail {
   right: unset !important;
-  left: -10px !important;                                    /* tail on LEFT side */
-  border-width: 10px 10px 10px 0 !important;                 /* right-pointing triangle */
+  left: -10px !important; /* tail on LEFT side */
+  border-width: 10px 10px 10px 0 !important; /* right-pointing triangle */
   border-color: transparent !important;
-  border-right-color: inherit !important;                    /* match bubble color */
+  border-right-color: inherit !important; /* match bubble color */
 }
 
 /* ── Options: never grey out / disable appearance ────────────────────── */

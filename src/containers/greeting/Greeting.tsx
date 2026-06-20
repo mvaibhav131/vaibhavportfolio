@@ -21,9 +21,13 @@ export default function Greeting(props) {
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
                   <TypeAnimation
                     sequence={[
+                      "Senior Software Engineer",
+                      1500,
                       "Full Stack Developer",
                       1500,
                       "MERN Stack Developer",
+                      1500,
+                      "DevOps Engineer",
                       1500,
                       "React Developer",
                       1500,
