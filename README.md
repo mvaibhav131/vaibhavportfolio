@@ -1,4 +1,4 @@
-# Vaibhav More — Portfolio
+# Vaibhav More â€” Portfolio
 
 A modern, fully responsive developer portfolio built with **React 18 + TypeScript**.
 
@@ -38,14 +38,14 @@ Live: [vaibhavmore.in](http://vaibhavmore.in)
 
 ### Prerequisites
 
-- **Node.js 22+** (use `nvm` — `nvm install 22 && nvm use 22`)
+- **Node.js 22+** (use `nvm` â€” `nvm install 22 && nvm use 22`)
 - npm 10+
 
 ### Install & Run
 
 ```bash
-git clone https://github.com/mvaibhav131/masterPortfolio.git
-cd masterPortfolio
+git clone https://github.com/mvaibhav131/vaibhavportfolio.git
+cd vaibhavportfolio
 npm install --legacy-peer-deps
 npm start
 ```
@@ -75,11 +75,11 @@ npm run deploy
 
 ### 1. Portfolio data
 
-Edit `src/portfolio.js` — all personal info, experience, projects, certifications live here.
+Edit `src/portfolio.js` â€” all personal info, experience, projects, certifications live here.
 
 ### 2. Theme
 
-Edit `src/theme.js` — add or modify color themes. The toggle is in the footer.
+Edit `src/theme.js` â€” add or modify color themes. The toggle is in the footer.
 
 ### 3. Contact form (EmailJS + WhatsApp)
 
@@ -90,7 +90,7 @@ REACT_APP_EMAILJS_SERVICE_ID=service_xxxxx
 REACT_APP_EMAILJS_TEMPLATE_ID=template_xxxxx
 REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
-# WhatsApp (optional — CallMeBot)
+# WhatsApp (optional â€” CallMeBot)
 REACT_APP_CALLMEBOT_PHONE=91XXXXXXXXXX
 REACT_APP_CALLMEBOT_APIKEY=your_apikey
 ```
@@ -111,7 +111,7 @@ Run `node git_data_fetcher.mjs` to update GitHub stats cached in `src/shared/`.
 src/
 +-- components/       # Reusable UI components (.tsx + .scss)
 +-- containers/       # Feature sections (experience, skills, etc.)
-+-- pages/            # Route-level pages (home, contact, education…)
++-- pages/            # Route-level pages (home, contact, educationâ€¦)
 +-- shared/           # Static JSON data (GitHub, contact)
 +-- store/            # Zustand theme store
 +-- portfolio.ts      # All personal portfolio data
