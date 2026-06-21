@@ -16,12 +16,7 @@ const skillAnimations: Record<string, string> = {
 function GetSkillSvg(props) {
   const src = skillAnimations[props.fileName] || skillAnimations.FullStackImg;
   return (
-    <Player
-      autoplay
-      loop
-      src={src}
-      style={{ width: "100%", maxWidth: 520 }}
-    />
+    <Player autoplay loop src={src} style={{ width: "100%", maxWidth: 520 }} />
   );
 }
 

@@ -16,7 +16,9 @@ const _earliest = _workJobs
   .sort((a, b) => a.getTime() - b.getTime())[0];
 
 const YEARS_EXP = _earliest
-  ? Math.floor((Date.now() - _earliest.getTime()) / (365.25 * 24 * 60 * 60 * 1000)) + 1
+  ? Math.floor(
+      (Date.now() - _earliest.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
+    ) + 1
   : "several";
 
 const CURRENT_JOB = _workJobs.find((e) =>
@@ -63,18 +65,54 @@ const RobotIcon = () => (
       />
 
       {/* Antenna stem */}
-      <line x1="50" y1="22" x2="50" y2="10" stroke="#64B5F6" strokeWidth="2.5" strokeLinecap="round" />
+      <line
+        x1="50"
+        y1="22"
+        x2="50"
+        y2="10"
+        stroke="#64B5F6"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+      />
 
       {/* Antenna ball */}
       <circle cx="50" cy="8" r="5" fill="#FF6B6B">
-        <animate attributeName="r" values="5;6;5" dur="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" />
-        <animate attributeName="fill" values="#FF6B6B;#FF8A80;#FF6B6B" dur="1.2s" repeatCount="indefinite" />
+        <animate
+          attributeName="r"
+          values="5;6;5"
+          dur="1.2s"
+          repeatCount="indefinite"
+          calcMode="spline"
+          keySplines="0.4 0 0.6 1;0.4 0 0.6 1"
+        />
+        <animate
+          attributeName="fill"
+          values="#FF6B6B;#FF8A80;#FF6B6B"
+          dur="1.2s"
+          repeatCount="indefinite"
+        />
       </circle>
 
       {/* Head */}
-      <rect x="18" y="22" width="64" height="52" rx="12" ry="12" fill="#4FC3F7" />
+      <rect
+        x="18"
+        y="22"
+        width="64"
+        height="52"
+        rx="12"
+        ry="12"
+        fill="#4FC3F7"
+      />
       {/* Head shine */}
-      <rect x="22" y="26" width="28" height="12" rx="6" ry="6" fill="rgba(255,255,255,0.25)" />
+      <rect
+        x="22"
+        y="26"
+        width="28"
+        height="12"
+        rx="6"
+        ry="6"
+        fill="rgba(255,255,255,0.25)"
+      />
 
       {/* Left ear */}
       <rect x="10" y="36" width="10" height="16" rx="3" ry="3" fill="#29B6F6" />
@@ -87,14 +125,26 @@ const RobotIcon = () => (
 
       {/* Left pupil */}
       <ellipse cx="36" cy="44" rx="6" ry="6" fill="#1565C0">
-        <animate attributeName="ry" values="6;6;6;6;1;6;6" dur="3.5s" repeatCount="indefinite" calcMode="discrete" />
+        <animate
+          attributeName="ry"
+          values="6;6;6;6;1;6;6"
+          dur="3.5s"
+          repeatCount="indefinite"
+          calcMode="discrete"
+        />
       </ellipse>
       {/* Left eye shine */}
       <circle cx="39" cy="41" r="2" fill="white" />
 
       {/* Right pupil */}
       <ellipse cx="64" cy="44" rx="6" ry="6" fill="#1565C0">
-        <animate attributeName="ry" values="6;6;6;6;1;6;6" dur="3.5s" repeatCount="indefinite" calcMode="discrete" />
+        <animate
+          attributeName="ry"
+          values="6;6;6;6;1;6;6"
+          dur="3.5s"
+          repeatCount="indefinite"
+          calcMode="discrete"
+        />
       </ellipse>
       {/* Right eye shine */}
       <circle cx="67" cy="41" r="2" fill="white" />
@@ -103,13 +153,31 @@ const RobotIcon = () => (
       <rect x="30" y="60" width="40" height="10" rx="5" ry="5" fill="#0D47A1" />
       {/* Mouth wave dots */}
       <circle cx="40" cy="65" r="2.5" fill="#4FC3F7">
-        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0s" />
+        <animate
+          attributeName="cy"
+          values="65;62;65"
+          dur="0.8s"
+          repeatCount="indefinite"
+          begin="0s"
+        />
       </circle>
       <circle cx="50" cy="65" r="2.5" fill="#4FC3F7">
-        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0.15s" />
+        <animate
+          attributeName="cy"
+          values="65;62;65"
+          dur="0.8s"
+          repeatCount="indefinite"
+          begin="0.15s"
+        />
       </circle>
       <circle cx="60" cy="65" r="2.5" fill="#4FC3F7">
-        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0.3s" />
+        <animate
+          attributeName="cy"
+          values="65;62;65"
+          dur="0.8s"
+          repeatCount="indefinite"
+          begin="0.3s"
+        />
       </circle>
 
       {/* Body */}
@@ -118,23 +186,40 @@ const RobotIcon = () => (
       <rect x="34" y="80" width="32" height="12" rx="4" ry="4" fill="#0288D1" />
       {/* Body light */}
       <circle cx="40" cy="86" r="3" fill="#00E5FF">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+        <animate
+          attributeName="opacity"
+          values="1;0.3;1"
+          dur="1.5s"
+          repeatCount="indefinite"
+        />
       </circle>
       <circle cx="50" cy="86" r="3" fill="#69F0AE">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="0.5s" />
+        <animate
+          attributeName="opacity"
+          values="1;0.3;1"
+          dur="1.5s"
+          repeatCount="indefinite"
+          begin="0.5s"
+        />
       </circle>
       <circle cx="60" cy="86" r="3" fill="#FF6B6B">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="1s" />
+        <animate
+          attributeName="opacity"
+          values="1;0.3;1"
+          dur="1.5s"
+          repeatCount="indefinite"
+          begin="1s"
+        />
       </circle>
     </g>
   </svg>
 );
 
 export default function PortfolioChatBot({ theme }) {
-  const accent    = theme?.imageHighlight || "#667eea";
-  const bg        = theme?.body          || "#ffffff";
-  const textColor = theme?.text          || "#333333";
-  const bubbleBg  = theme?.highlight     || "#f0f0f8";
+  const accent = theme?.imageHighlight || "#667eea";
+  const bg = theme?.body || "#ffffff";
+  const textColor = theme?.text || "#333333";
+  const bubbleBg = theme?.highlight || "#f0f0f8";
 
   /* ── Stable flow — useMemo with [] so it is created exactly once ───── */
   const flow = useMemo(
@@ -263,7 +348,9 @@ export default function PortfolioChatBot({ theme }) {
     [accent, bg, textColor, bubbleBg]
   );
 
-  return <ChatBot key={accent} flow={flow} settings={settings} styles={styles} />;
+  return (
+    <ChatBot key={accent} flow={flow} settings={settings} styles={styles} />
+  );
 }
 
 /* ── FAQ answers ─────────────────────────────────────────────────────── */
@@ -272,7 +359,9 @@ function getAnswer(input) {
   const q = input.toLowerCase();
 
   if (match(q, ["about", "who", "vaibhav", "introduce", "tell me"]))
-    return `Vaibhav More is a Senior Software Engineer with ${YEARS_EXP}+ years of full-stack experience, currently at ${CURRENT_JOB?.company || "Kerv Digital"}. 🚀`;
+    return `Vaibhav More is a Senior Software Engineer with ${YEARS_EXP}+ years of full-stack experience, currently at ${
+      CURRENT_JOB?.company || "Kerv Digital"
+    }. 🚀`;
 
   if (match(q, ["current", "present", "now", "kerv"]))
     return CURRENT_JOB
