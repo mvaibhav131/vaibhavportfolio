@@ -1,4 +1,4 @@
-/* global self */
+/* eslint-disable no-restricted-globals */
 // This service worker unregisters itself and refreshes all clients
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', () => {

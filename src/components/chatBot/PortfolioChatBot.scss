@@ -32,6 +32,21 @@
   display: none !important;
 }
 
+/* ── Chatbot button — no circle, just the robot animation ───────────── */
+.rcb-chat-bot-container button,
+.rcb-chat-bot-container .rcb-chat-button {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.rcb-chat-bot-container .rcb-chat-icon {
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
 /* ── Tooltip — show to the RIGHT of the left-side FAB ───────────────── */
 /* Library default puts it left with right-pointing tail — we flip both  */
 .rcb-chat-tooltip {

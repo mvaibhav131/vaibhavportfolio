@@ -54,7 +54,12 @@ export default function ThemePicker({ mobileOnly }) {
         onClick={() => setOpen((prev) => !prev)}
         title="Change Theme"
       >
-        🎨
+        <span
+          className="iconify"
+          data-icon="mdi:palette"
+          data-inline="false"
+          style={{ fontSize: 22, color: "#fff" }}
+        />
       </button>
       {open && ReactDOM.createPortal(panel, document.body)}
     </div>

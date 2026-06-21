@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { contactInfo } from "../../portfolio";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Contact() {
   return (
@@ -29,10 +30,12 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-image-div">
-          <img
-            alt="Vaibhav More"
-            src={require("../../assests/images/contactMail.png")}
-          ></img>
+          <Player
+            autoplay
+            loop
+            src="/animations/contact.json"
+            style={{ width: "100%", maxWidth: 520 }}
+          />
         </div>
       </div>
     </div>

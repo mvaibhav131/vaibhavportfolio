@@ -3,20 +3,26 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { ThemeProps } from "../../types/portfolio";
 
+const skillAnimations: Record<string, string> = {
+  DataScienceImg: "/animations/datascience.json",
+  FullStackImg: "/animations/fullstack.json",
+  CloudInfraImg: "/animations/cloud.json",
+  DesignImg: "/animations/uiux.json",
+};
+
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  const src = skillAnimations[props.fileName] || skillAnimations.FullStackImg;
+  return (
+    <Player
+      autoplay
+      loop
+      src={src}
+      style={{ width: "100%", maxWidth: 520 }}
+    />
+  );
 }
 
 class SkillSection extends Component<ThemeProps> {

@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { TypeAnimation } from "react-type-animation";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -79,11 +80,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-              alt="Vaibhav More - Full Stack Developer"
-              src={require("../../assests/images/home_animate.gif")}
-            ></img>
-            {/* <FeelingProud theme={theme} /> */}
+            <Player
+              autoplay
+              loop
+              src="/animations/developer.json"
+              style={{ width: "100%", maxWidth: 520 }}
+            />
           </div>
         </div>
       </div>

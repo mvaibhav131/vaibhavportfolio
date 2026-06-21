@@ -15,7 +15,7 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import ClientProjectsData from "../../shared/opensource/clientprojects.json";
 import "./Projects.scss";
-import ProjectsImg from "./ProjectsImg";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { PageProps } from "../../types/portfolio";
 
 class Projects extends Component<PageProps> {
@@ -28,7 +28,7 @@ class Projects extends Component<PageProps> {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                <ProjectsImg theme={theme} />
+                <Player autoplay loop src="/animations/projects.json" style={{ width: "100%", maxWidth: 520 }} />
               </div>
               <div className="projects-heading-text-div">
                 <h1 className="projects-heading-text" style={{ color: theme.text }}>

@@ -6,7 +6,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.scss";
 import { experience } from "../../portfolio";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { PageProps } from "../../types/portfolio";
 
 // const experience = {
@@ -159,7 +159,12 @@ class Experience extends Component<PageProps> {
 									src={require(`../../assests/images/${experience["header_image_path"]}`)}
 									alt=""
 								/> */}
-                <ExperienceImg theme={theme} />
+                <Player
+                  autoplay
+                  loop
+                  src="/animations/experience.json"
+                  style={{ width: "100%", maxWidth: 520 }}
+                />
               </div>
               <div className="experience-heading-text-div">
                 <h1

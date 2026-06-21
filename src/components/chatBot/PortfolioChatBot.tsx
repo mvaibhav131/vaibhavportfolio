@@ -42,14 +42,91 @@ const OPTIONS = [
  * Flow is memoized so it is never recreated on re-render.
  */
 const RobotIcon = () => (
-  <svg viewBox="0 0 24 24" width="38" height="38" fill="white" xmlns="http://www.w3.org/2000/svg">
-    <rect x="5" y="8" width="14" height="11" rx="2" />
-    <rect x="9" y="3" width="6" height="5" rx="2" />
-    <circle cx="9" cy="13" r="1.5" fill="#1a1a2e" />
-    <circle cx="15" cy="13" r="1.5" fill="#1a1a2e" />
-    <rect x="9" y="16" width="6" height="1.5" rx="0.75" fill="#1a1a2e" />
-    <rect x="2" y="10" width="3" height="5" rx="1.5" />
-    <rect x="19" y="10" width="3" height="5" rx="1.5" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 100 100"
+    width="65"
+    height="65"
+    role="img"
+    aria-label="Chat with Vaibhav's assistant"
+  >
+    {/* floating group */}
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,0; 0,-4; 0,0"
+        dur="2.4s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"
+      />
+
+      {/* Antenna stem */}
+      <line x1="50" y1="22" x2="50" y2="10" stroke="#64B5F6" strokeWidth="2.5" strokeLinecap="round" />
+
+      {/* Antenna ball */}
+      <circle cx="50" cy="8" r="5" fill="#FF6B6B">
+        <animate attributeName="r" values="5;6;5" dur="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" />
+        <animate attributeName="fill" values="#FF6B6B;#FF8A80;#FF6B6B" dur="1.2s" repeatCount="indefinite" />
+      </circle>
+
+      {/* Head */}
+      <rect x="18" y="22" width="64" height="52" rx="12" ry="12" fill="#4FC3F7" />
+      {/* Head shine */}
+      <rect x="22" y="26" width="28" height="12" rx="6" ry="6" fill="rgba(255,255,255,0.25)" />
+
+      {/* Left ear */}
+      <rect x="10" y="36" width="10" height="16" rx="3" ry="3" fill="#29B6F6" />
+      {/* Right ear */}
+      <rect x="80" y="36" width="10" height="16" rx="3" ry="3" fill="#29B6F6" />
+
+      {/* Eye sockets */}
+      <ellipse cx="36" cy="44" rx="12" ry="12" fill="white" />
+      <ellipse cx="64" cy="44" rx="12" ry="12" fill="white" />
+
+      {/* Left pupil */}
+      <ellipse cx="36" cy="44" rx="6" ry="6" fill="#1565C0">
+        <animate attributeName="ry" values="6;6;6;6;1;6;6" dur="3.5s" repeatCount="indefinite" calcMode="discrete" />
+      </ellipse>
+      {/* Left eye shine */}
+      <circle cx="39" cy="41" r="2" fill="white" />
+
+      {/* Right pupil */}
+      <ellipse cx="64" cy="44" rx="6" ry="6" fill="#1565C0">
+        <animate attributeName="ry" values="6;6;6;6;1;6;6" dur="3.5s" repeatCount="indefinite" calcMode="discrete" />
+      </ellipse>
+      {/* Right eye shine */}
+      <circle cx="67" cy="41" r="2" fill="white" />
+
+      {/* Mouth display */}
+      <rect x="30" y="60" width="40" height="10" rx="5" ry="5" fill="#0D47A1" />
+      {/* Mouth wave dots */}
+      <circle cx="40" cy="65" r="2.5" fill="#4FC3F7">
+        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0s" />
+      </circle>
+      <circle cx="50" cy="65" r="2.5" fill="#4FC3F7">
+        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0.15s" />
+      </circle>
+      <circle cx="60" cy="65" r="2.5" fill="#4FC3F7">
+        <animate attributeName="cy" values="65;62;65" dur="0.8s" repeatCount="indefinite" begin="0.3s" />
+      </circle>
+
+      {/* Body */}
+      <rect x="26" y="75" width="48" height="22" rx="8" ry="8" fill="#29B6F6" />
+      {/* Body panel */}
+      <rect x="34" y="80" width="32" height="12" rx="4" ry="4" fill="#0288D1" />
+      {/* Body light */}
+      <circle cx="40" cy="86" r="3" fill="#00E5FF">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="50" cy="86" r="3" fill="#69F0AE">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="0.5s" />
+      </circle>
+      <circle cx="60" cy="86" r="3" fill="#FF6B6B">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="1s" />
+      </circle>
+    </g>
   </svg>
 );
 
@@ -120,20 +197,21 @@ export default function PortfolioChatBot({ theme }) {
   const styles = useMemo(
     () => ({
       chatButtonStyle: {
-        background: accent,
-        bottom: "1.5rem",
-        left: "1.5rem",
+        background: "transparent",
+        boxShadow: "none",
+        border: "none",
+        bottom: "1rem",
+        left: "1rem",
         right: "unset",
-        width: "55px",
-        height: "55px",
+        width: "70px",
+        height: "70px",
       },
       chatIconStyle: {
-        width: "60px",
-        height: "60px",
-        borderRadius: "50%",
-        backgroundSize: "60%",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
+        width: "70px",
+        height: "70px",
+        background: "transparent",
+        borderRadius: "0",
+        padding: "0",
       },
       chatWindowStyle: {
         position: "fixed" as const,

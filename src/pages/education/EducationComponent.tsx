@@ -5,7 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
-import EducationImg from "./EducationImg";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { competitiveSites } from "../../portfolio";
 import { certifications } from "../../portfolio";
 import "./EducationComponent.scss";
@@ -26,7 +26,12 @@ class Education extends Component<ThemeProps> {
 									src={require("../../assests/images/education.svg")}
 									alt=""
 								/> */}
-                <EducationImg theme={theme} />
+                <Player
+                  autoplay
+                  loop
+                  src="/animations/education.json"
+                  style={{ width: "100%", maxWidth: 520 }}
+                />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>

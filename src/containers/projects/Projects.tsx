@@ -6,7 +6,7 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 import { greeting } from "../../portfolio";
-import useThemeStore from "../../store/store";
+import { Player } from "@lottiefiles/react-lottie-player";
 import { chosenTheme } from "../../theme";
 
 export default function Projects() {
@@ -70,6 +70,14 @@ export default function Projects() {
 
   return (
     <div className="main" id="opensource">
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Player
+          autoplay
+          loop
+          src="/animations/mindmap.json"
+          style={{ width: "100%", maxWidth: 520, height: 380 }}
+        />
+      </div>
       <h1 className="project-title">Open Source Projects</h1>
       <div className="repo-cards-div-main">
         {repo.map((v, i) => {

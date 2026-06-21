@@ -4,8 +4,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+import { Player } from "@lottiefiles/react-lottie-player";
 import ContactForm from "./ContactForm";
 import { Fade } from "react-reveal";
 import "./ContactComponent.scss";
@@ -78,18 +77,24 @@ class Contact extends Component<PageProps> {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-									/> */}
-                <BlogsImg theme={theme} />
+                <Player
+                  autoplay
+                  loop
+                  src="/animations/blogs.json"
+                  style={{ width: "100%", maxWidth: 520 }}
+                />
               </div>
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-divs">
-                <AddressImg theme={theme} />
+                <Player
+                  autoplay
+                  loop
+                  src="/animations/contact.json"
+                  style={{ width: "100%", maxWidth: 520 }}
+                />
               </div>
               <div className="address-heading-text-div">
                 <h1
