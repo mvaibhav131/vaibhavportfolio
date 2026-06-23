@@ -2,13 +2,13 @@
   "data": [
     {
       "id": "R_kgDOJq75dg",
-      "name": "Watch Movie",
+      "name": "Vaibhav Flix",
       "sector": "Streaming Services",
       "createdAt": "2023-06-03T13:16:00Z",
       "poster_url": "https://user-images.githubusercontent.com/98808183/243316784-26e544ab-4ecc-40b5-b32e-fa640e0866f1.png",
       "url": "https://github.com/mvaibhav131/react-movie-app",
-      "view_url": "https://vaibhav-react-movie-app.netlify.app/",
-      "description": " React Watch Movie is an interactive and user-friendly web application for browsing movies.",
+      "view_url": "https://vaibhavflix.netlify.app/",
+      "description": " Vaibhav Flix is an interactive and user-friendly web application for browsing movies and live streaming.",
       "isFork": false,
       "languages": [
         {
