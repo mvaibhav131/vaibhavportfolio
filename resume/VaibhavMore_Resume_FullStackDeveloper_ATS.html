@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vaibhav More - Full Stack Developer Resume</title>
+    <style>
+      :root {
+        --ink: #111111;
+        --muted: #3f3f3f;
+        --rule: #8db5cc;
+        --link: #0645ad;
+        --accent: #126b96;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #f5f7fa;
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 10.15pt;
+        line-height: 1.25;
+      }
+
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 10mm 12mm;
+        background: #fff;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid var(--accent);
+      }
+
+      h1 {
+        margin: 0 0 2px;
+        font-size: 27pt;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      .headline {
+        margin: 0 0 5px;
+        color: var(--accent);
+        font-size: 11pt;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      .contact {
+        color: var(--muted);
+        font-size: 9.35pt;
+        line-height: 1.25;
+        text-align: center;
+      }
+
+      .contact-primary,
+      .contact-secondary {
+        display: block;
+      }
+
+      .contact-primary {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4px 12px;
+        color: var(--ink);
+        font-size: 10.45pt;
+        margin-bottom: 1px;
+      }
+
+      .contact-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+      }
+
+      .contact-icon {
+        width: 12.5px;
+        height: 12.5px;
+        color: var(--ink);
+        flex: 0 0 auto;
+      }
+
+      .contact-secondary {
+        color: var(--muted);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3px 8px;
+        font-size: 9.7pt;
+        margin-top: 0;
+        margin-bottom: 4px;
+      }
+
+      .profile-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        white-space: nowrap;
+      }
+
+      .profile-icon {
+        width: 12.5px;
+        height: 12.5px;
+        color: var(--ink);
+        flex: 0 0 auto;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+
+      .contact-primary a {
+        color: var(--link);
+      }
+
+      section {
+        margin-top: 7px;
+      }
+
+      .page > section:first-of-type {
+        margin-top: 8px;
+      }
+
+      h2 {
+        margin: 0 0 2.5px;
+        padding: 0 0 1.5px;
+        background: transparent;
+        color: var(--accent);
+        border-bottom: 1px solid var(--rule);
+        font-size: 10.7pt;
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0 0 3px;
+      }
+
+      .skills p {
+        display: block;
+        margin-bottom: 0.6px;
+      }
+
+      .skills strong {
+        color: #222;
+        margin-right: 3px;
+      }
+
+      .keyword {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-weight: 600;
+      }
+
+      .item {
+        margin-bottom: 2.4px;
+      }
+
+      .item-head {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        align-items: baseline;
+        margin-bottom: 1px;
+      }
+
+      .item-title {
+        font-weight: 700;
+        color: #222;
+      }
+
+      .item-head .item-title {
+        line-height: 1.15;
+      }
+
+      .item-date,
+      .item-location {
+        color: var(--muted);
+        font-style: italic;
+        white-space: nowrap;
+      }
+
+      .role-line {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 14px;
+        color: var(--muted);
+        font-style: italic;
+        margin-bottom: 2px;
+      }
+
+      ul {
+        margin: 2px 0 0 16px;
+        padding: 0;
+      }
+
+      li {
+        margin: 0.1px 0;
+      }
+
+      .project-tech {
+        color: var(--muted);
+        font-size: 8.8pt;
+        line-height: 1.2;
+        font-style: italic;
+      }
+
+      .project-line {
+        margin-top: 2.5px;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+
+        .page {
+          width: 210mm;
+          height: 297mm;
+          min-height: 0;
+          margin: 0;
+          padding: 4.8mm 10mm 5.8mm;
+          overflow: hidden;
+          page-break-after: avoid;
+          break-after: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M6.6 2.9 9.2 8c.3.6.1 1.3-.4 1.7l-1.2 1a14.8 14.8 0 0 0 5.7 5.7l1-1.2c.4-.5 1.1-.7 1.7-.4l5.1 2.6c.6.3 1 1  .8 1.7l-.6 2.4c-.2.8-.9 1.4-1.8 1.4C9.4 22.9 1.1 14.6 1.1 4.5c0-.9.6-1.6 1.4-1.8l2.4-.6c.7-.2 1.4.1 1.7.8Z" />
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4 5h16c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2Zm8 8.2 8.7-5.4c-.3-.5-.8-.8-1.4-.8H4.7c-.6 0-1.1.3-1.4.8l8.7 5.4Zm0 2.1L3 9.7V17c0 .6.4 1 1 1h16c.6 0 1-.4 1-1V9.7l-9 5.6Z" />
+      </symbol>
+      <symbol id="icon-location" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a8 8 0 0 0-8 8c0 5.8 8 12 8 12s8-6.2 8-12a8 8 0 0 0-8-8Zm0 11.2A3.2 3.2 0 1 1 12 6.8a3.2 3.2 0 0 1 0 6.4Z" />
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 9h-3.2a15 15 0 0 0-1.1-5A8.1 8.1 0 0 1 18.9 11ZM12 4c.8 1.2 1.4 3.6 1.6 7h-3.2C10.6 7.6 11.2 5.2 12 4Zm-2.6 2a15 15 0 0 0-1.1 5H5.1A8.1 8.1 0 0 1 9.4 6ZM5.1 13h3.2a15 15 0 0 0 1.1 5A8.1 8.1 0 0 1 5.1 13ZM12 20c-.8-1.2-1.4-3.6-1.6-7h3.2c-.2 3.4-.8 5.8-1.6 7Zm2.6-2a15 15 0 0 0 1.1-5h3.2a8.1 8.1 0 0 1-4.3 5Z" />
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M4.8 3h14.4A1.8 1.8 0 0 1 21 4.8v14.4a1.8 1.8 0 0 1-1.8 1.8H4.8A1.8 1.8 0 0 1 3 19.2V4.8A1.8 1.8 0 0 1 4.8 3Zm3 6.3a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2Zm1.4 9.1v-7.7H6.5v7.7h2.7Zm4.4 0v-4.2c0-1.1.5-1.8 1.5-1.8.9 0 1.3.7 1.3 1.8v4.2h2.7v-4.7c0-2.5-1.3-3.6-3.1-3.6-1.4 0-2.1.8-2.4 1.3v-.8H11v7.7h2.6Z" />
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.9.6-3.5-1.2-3.5-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.6.4-1.1.7-1.3-2.3-.3-4.7-1.2-4.7-5A3.9 3.9 0 0 1 6.6 8c-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a9.8 9.8 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7a3.9 3.9 0 0 1 1 2.7c0 3.8-2.4 4.7-4.7 5 .4.3.7.9.7 1.8V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" />
+      </symbol>
+      <symbol id="icon-gitlab" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 21 3.4 8.8 5.9 3c.2-.5.9-.5 1.1 0l2.1 5.8h5.8L17 3c.2-.5.9-.5 1.1 0l2.5 5.8L12 21Z" />
+      </symbol>
+      <symbol id="icon-youtube" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M21.6 7.2c-.2-.9-.9-1.5-1.8-1.7C18.2 5 12 5 12 5s-6.2 0-7.8.5c-.9.2-1.6.9-1.8 1.7C2 8.8 2 12 2 12s0 3.2.4 4.8c.2.9.9 1.5 1.8 1.7 1.6.5 7.8.5 7.8.5s6.2 0 7.8-.5c.9-.2 1.6-.9 1.8-1.7.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8ZM10 15.2V8.8l5.5 3.2-5.5 3.2Z" />
+      </symbol>
+    </svg>
+    <main class="page">
+      <header>
+        <h1>Vaibhav More</h1>
+        <p class="headline">Senior Software Engineer | Full Stack Developer</p>
+        <div class="contact">
+          <div class="contact-primary">
+            <span class="contact-item"><svg class="contact-icon"><use href="#icon-phone" /></svg>+91-8308481276</span>
+            <a class="contact-item" href="mailto:mvaibhav131@gmail.com"><svg class="contact-icon"><use href="#icon-mail" /></svg>mvaibhav131@gmail.com</a>
+            <span class="contact-item"><svg class="contact-icon"><use href="#icon-location" /></svg>Pune, Maharashtra, India</span>
+            <a class="contact-item" href="https://vaibhavmore.in"><svg class="contact-icon"><use href="#icon-globe" /></svg>vaibhavmore.in</a>
+          </div>
+          <div class="contact-secondary">
+            <a class="profile-link" href="https://www.linkedin.com/in/vaibhav131/"><svg class="profile-icon"><use href="#icon-linkedin" /></svg>LinkedIn</a>
+            <span>|</span>
+            <a class="profile-link" href="https://github.com/mvaibhav131"><svg class="profile-icon"><use href="#icon-github" /></svg>GitHub</a>
+            <span>|</span>
+            <a class="profile-link" href="https://gitlab.com/mvaibhav131"><svg class="profile-icon"><use href="#icon-gitlab" /></svg>GitLab</a>
+            <span>|</span>
+            <a class="profile-link" href="https://www.youtube.com/@mvaibhav131"><svg class="profile-icon"><use href="#icon-youtube" /></svg>YouTube</a>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h2>Professional Summary</h2>
+        <p>
+          Senior <span class="keyword">Full Stack Developer</span> with <span class="keyword">5+ years</span> of experience in JavaScript, <span class="keyword">TypeScript</span>, <span class="keyword">React.js</span>, <span class="keyword">Next.js</span>, <span class="keyword">Node.js</span>, <span class="keyword">Express.js</span>, <span class="keyword">MongoDB</span>, MySQL, and <span class="keyword">PostgreSQL</span>. Experienced in building scalable, secure, and performance-focused enterprise applications across Energy, FinTech, and SaaS domains. Skilled in <span class="keyword">CI/CD pipelines</span>, <span class="keyword">AWS</span>, <span class="keyword">GCP</span>, <span class="keyword">Azure</span>, <span class="keyword">Docker</span>, <span class="keyword">Kubernetes</span>, automated testing with <span class="keyword">Cypress</span>, Vitest, <span class="keyword">Jest</span>, Mocha, Chai, and Supertest, plus mentoring, sprint leadership, and <span class="keyword">Agile</span> collaboration with QA, DevOps, and Product teams.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Technical Skills</h2>
+        <p><strong>Front End:</strong> React.js, Next.js, Vite, TypeScript, JavaScript, React Native, Redux Toolkit, Zustand, React Query, HTML5, CSS3, Tailwind CSS, Chakra UI, Ant Design, Material UI, Bootstrap</p>
+        <p><strong>Back End:</strong> Node.js, Express.js, NestJS, REST APIs, Swagger/OpenAPI, JWT, OAuth, WebSockets, Redis caching</p>
+        <p><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL, SQL Server, Redis, Firebase, Hasura</p>
+        <p><strong>Cloud and DevOps:</strong> AWS EC2, S3, RDS, Lambda, API Gateway, SQS, SES, CloudFront, Route 53, IAM, CloudWatch, ECR, ECS, Secrets Manager, Terraform, Azure, GCP, Docker, Kubernetes</p>
+        <p><strong>CI/CD and Tools:</strong> Atlassian Bamboo, GitHub Actions, Bitbucket, GitLab, Git, Linux, Jira, Agile/Scrum, Figma</p>
+        <p><strong>Testing:</strong> Jest, Playwright, Cypress, Cucumber, Vitest, Mocha, Chai, Supertest, React Testing Library</p>
+        <p><strong>AI Tools:</strong> GitHub Copilot, AI coding assistants, LLM-assisted debugging, code review, documentation</p>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Kerv Digital</div>
+            <div class="item-date">Dec 2025 - Present</div>
+          </div>
+          <div class="role-line">
+            <div>Senior Software Engineer</div>
+            <div class="item-location">Pune, Maharashtra, India</div>
+          </div>
+          <ul>
+            <li>Work on <span class="keyword">microservices-based</span> full-stack projects across React.js, Vite, Node.js, <span class="keyword">Docker</span>, and AWS services.</li>
+            <li>Automate cloud delivery workflows using <span class="keyword">AWS</span>, <span class="keyword">Terraform</span>, Atlassian Bamboo, and <span class="keyword">Cucumber</span> BDD testing.</li>
+            <li>Strengthen clean architecture, system design, <span class="keyword">code reviews</span>, agile delivery, and mentoring for engineering quality.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Esyasoft Technologies</div>
+            <div class="item-date">June 2023 - Dec 2025</div>
+          </div>
+          <div class="role-line">
+            <div>Senior Software Engineer</div>
+            <div class="item-location">Bangalore, Karnataka, India</div>
+          </div>
+          <ul>
+            <li>Led <span class="keyword">front-end</span> development using React.js, Next.js, Redux Toolkit, TypeScript, and SCSS for enterprise applications.</li>
+            <li>Architected <span class="keyword">REST APIs</span> and session workflows using Node.js, Express.js, PostgreSQL, and SQL Server.</li>
+            <li>Delivered cloud integrations with <span class="keyword">AWS</span> SES/SMS, EC2, S3, RDS, CloudFront, Route 53, IAM, Bitbucket, and Azure.</li>
+            <li>Conducted interviews, mentored developers, reviewed code, and resolved <span class="keyword">production issues</span> across sprint releases.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">GrowthPal Technologies</div>
+            <div class="item-date">Oct 2022 - May 2023</div>
+          </div>
+          <div class="role-line">
+            <div>Software Engineer</div>
+            <div class="item-location">Pune, Maharashtra, India</div>
+          </div>
+          <ul>
+            <li>Created React.js, Next.js, TypeScript, Redux, and SCSS front-end applications with <span class="keyword">Jest</span> and <span class="keyword">Cypress</span> test coverage.</li>
+            <li>Implemented Node.js, Express.js, and NestJS APIs with authentication, AWS SES/SMS, and <span class="keyword">2FA</span> workflows.</li>
+            <li>Optimized <span class="keyword">MongoDB</span>, <span class="keyword">PostgreSQL</span>, Hasura, schema migrations, data modeling, and query performance.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-head">
+            <div class="item-title">Cognizant Technology Solutions</div>
+            <div class="item-date">Feb 2022 - Oct 2022</div>
+          </div>
+          <div class="role-line">
+            <div>Software Developer</div>
+            <div class="item-location">Pune, Maharashtra, India</div>
+          </div>
+          <ul>
+            <li>Maintained <span class="keyword">JavaScript</span> codebases for enterprise tools and internal automation workflows.</li>
+            <li>Improved <span class="keyword">Oracle SQL</span> operations, query optimization, database maintenance, and Git-based delivery workflows.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-title">UKRI Research Funding Platform</div>
+          <div class="project-tech">TypeScript, React.js, Vite, JavaScript, Node.js, AWS, Terraform, Docker, Cucumber, pnpm, SonarQube, Atlassian Bamboo</div>
+          <p class="project-line">Delivering cloud-native research funding modules with secure APIs, automated deployments, infrastructure as code, BDD testing, and scalable AWS delivery.</p>
+        </div>
+
+        <div class="item">
+          <div class="item-title">Meter Data Management System</div>
+          <div class="project-tech">TypeScript, Next.js, React.js, JavaScript, Node.js, Express.js, SQL Server, Redux, Docker, Bootstrap, Ant Design, JWT</div>
+          <p class="project-line">Implemented an energy-sector MDM application with API integrations, JWT authentication, Redux state management, and SQL Server-backed services.</p>
+        </div>
+
+        <div class="item">
+          <div class="item-title">Power Dispatch</div>
+          <div class="project-tech">TypeScript, React.js, Vite, JavaScript, Node.js, Next.js, Bootstrap, WebSocket, MySQL, Zustand, Docker, Redux Toolkit, Azure</div>
+          <p class="project-line">Engineered an energy dispatch system with real-time broadcasting, WebSocket communication, cloud deployment, and state management.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item-head">
+          <div class="item-title">Savitribai Phule Pune University - B.Tech</div>
+          <div class="item-date">July 2017 - May 2020</div>
+        </div>
+        <div class="role-line">
+          <div>SGPA: 9.18</div>
+          <div class="item-location">Pune, Maharashtra, India</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

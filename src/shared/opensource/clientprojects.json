@@ -1,11 +1,80 @@
 {
   "data": [
     {
+      "id": "R_kgDOKrv1xA",
+      "name": "UKRI Research Funding Platform",
+      "createdAt": "",
+      "sector": "Government / Research & Innovation",
+      "poster_url": "/project-posters/client-ukri-funding-system.png",
+      "url": "",
+      "view_url": "https://www.ukri.org/",
+      "description": "Delivering cloud-native research funding modules with secure APIs, automated deployments, infrastructure as code, BDD testing, and scalable AWS delivery.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "skill-icons:typescript"
+        },
+        {
+          "name": "React.js",
+          "iconifyClass": "skill-icons:react-dark"
+        },
+        {
+          "name": "Vite",
+          "iconifyClass": "logos:vitejs"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "skill-icons:javascript"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "skill-icons:aws-dark"
+        },
+        {
+          "name": "Terraform",
+          "iconifyClass": "logos:terraform-icon"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "skill-icons:docker"
+        },
+        {
+          "name": "Cucumber",
+          "iconifyClass": "logos:cucumber"
+        },
+        {
+          "name": "PNPM",
+          "iconifyClass": "devicon:pnpm"
+        },
+        {
+          "name": "SonarQube",
+          "iconifyClass": "logos:sonarqube"
+        },
+        {
+          "name": "Atlassian Bamboo",
+          "iconifyClass": "devicon:bamboo"
+        },
+        {
+          "name": "Playwright",
+          "iconifyClass": "logos:playwright"
+        },
+        {
+          "name": "Swagger",
+          "iconifyClass": "logos:swagger"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOJq75dg",
       "name": "Investment Banking System",
       "createdAt": "",
       "sector": "Investment Banking / Mergers & Acquisitions Advisory",
-      "poster_url": "https://i.ibb.co/z5D0G5m/image.png",
+      "poster_url": "/project-posters/client-investment-banking.png",
       "url": "",
       "view_url": "https://www.growthpal.com/",
       "description": "GrowthPal delivers rapid, data-driven M&A advisory to find optimal acquisition targets.",
@@ -82,7 +151,7 @@
       "name": "Meter Data Management System",
       "createdAt": "",
       "sector": "Energy Transition Technologies",
-      "poster_url": "https://i.ibb.co/LvGbTBh/image.png",
+      "poster_url": "/project-posters/client-meter-data-management.png",
       "url": "",
       "view_url": "https://esyasoft.com/",
       "description": "Esyasoft provides AI-powered technology and analytics solutions that drive global energy transition projects.",
@@ -156,13 +225,13 @@
     },
     {
       "id": "R_kgDOHaVWeQ",
-      "name": "Grospick",
+      "name": "Ap Tutors",
       "createdAt": "",
-      "sector": "Food delivery service",
-      "poster_url": "https://i.ibb.co/XXTvJVY/image.png",
-      "view_url": "http://grospick.com/",
+      "sector": "EdTech / Online Tutoring",
+      "poster_url": "/project-posters/client-aptutors.png",
+      "view_url": "https://aptutors.website/",
       "url": "",
-      "description": "Grospick delivers a convenient online platform for ordering food from a wide range of restaurants.",
+      "description": "Developed and launched a responsive EdTech tutoring website with payment integration and scalable backend.",
       "isFork": false,
       "languages": [
         {
@@ -170,8 +239,8 @@
           "iconifyClass": "skill-icons:react-dark"
         },
         {
-          "name": "Redux",
-          "iconifyClass": "skill-icons:redux"
+          "name": "TypeScript",
+          "iconifyClass": "skill-icons:typescript"
         },
         {
           "name": "Node.js",
@@ -182,52 +251,44 @@
           "iconifyClass": "skill-icons:expressjs-dark"
         },
         {
-          "name": "Mongodb",
-          "iconifyClass": "logos:mongodb-icon"
+          "name": "PostgreSQL",
+          "iconifyClass": "logos:postgresql"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
         },
         {
-          "name": "Material UI",
-          "iconifyClass": "skill-icons:materialui-dark"
+          "name": "Zustand",
+          "iconifyClass": "noto:bear"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Sass",
-          "iconifyClass": "logos-sass"
+          "name": "Ant Design",
+          "iconifyClass": "devicon:antdesign"
         },
         {
           "name": "Docker",
           "iconifyClass": "skill-icons:docker"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "AWS EC2",
+          "iconifyClass": "skill-icons:aws-dark"
         },
         {
-          "name": "Axios",
-          "iconifyClass": "simple-icons:axios"
+          "name": "AWS S3",
+          "iconifyClass": "simple-icons:amazons3"
         },
         {
-          "name": "PNPM",
-          "iconifyClass": "devicon:pnpm"
+          "name": "AWS IAM",
+          "iconifyClass": "simple-icons:amazoniam"
         },
         {
-          "name": "Dot ENV",
-          "iconifyClass": "vscode-icons:file-type-dotenv"
+          "name": "Authorize.Net",
+          "iconifyClass": "simple-icons:stripe"
         },
         {
-          "name": "Razorpay",
-          "iconifyClass": "simple-icons:razorpay"
-        },
-        {
-          "name": "Figma",
-          "iconifyClass": "logos:figma"
+          "name": "Custom Domain",
+          "iconifyClass": "mdi:web"
         }
       ]
     },
@@ -236,7 +297,7 @@
       "name": "Pwr Dispatch",
       "createdAt": "",
       "sector": "Energy Market Compliance & Optimization",
-      "poster_url": "https://i.ibb.co/hcfnJbm/image.png",
+      "poster_url": "/project-posters/client-pwr-dispatch.png",
       "url": "",
       "view_url": "https://www.arcuspower.com/pwr-dispatch",
       "description": "Pwr optimizes energy market navigation and asset utilization while ensuring compliance with ISO and regulatory standards",
@@ -310,11 +371,11 @@
     },
     {
       "id": "R_kgDOHRkhdA",
-      "name": "UI Library - NPM",
+      "name": "Esyasoft UI Library",
       "createdAt": "",
       "sector": "Frontend Development Tools",
-      "poster_url": "https://i.ibb.co/y6cxvhM/image.png",
-      "view_url": "",
+      "poster_url": "/project-posters/client-esyasoft-ui-library.png",
+      "view_url": "https://esyasoft-library-ui.netlify.app/",
       "url": "",
       "description": "A customizable UI library for building modern, responsive web applications quickly and efficiently.",
       "isFork": false,
@@ -336,8 +397,8 @@
           "iconifyClass": "skill-icons:expressjs-dark"
         },
         {
-          "name": "Sql",
-          "iconifyClass": "vscode-icons:file-type-sql"
+          "name": "Storybook",
+          "iconifyClass": "logos:storybook-icon"
         },
         {
           "name": "CSS",
@@ -390,7 +451,7 @@
       "name": "Pwr Stream",
       "createdAt": "",
       "sector": "Live Stream Dashboard",
-      "poster_url": "https://i.ibb.co/26qzFTb/image.png",
+      "poster_url": "/project-posters/client-pwr-stream.png",
       "view_url": "https://www.energydashboard.co.uk/live",
       "url": "",
       "description": "Pwr Stream It’s a powerful, real-time forecast interface that will inform operators and equipment of all projected energy market costs in the coming hours and weeks.",

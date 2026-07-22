@@ -11,14 +11,23 @@
 
 .repo-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: stretch;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .project-title {
     font-size: 40px;
+  }
+  .repo-cards-div-main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .repo-cards-div-main {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 768px) {
@@ -27,6 +36,6 @@
     text-align: center;
   }
   .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
   }
 }

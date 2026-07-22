@@ -71,27 +71,34 @@
   margin-bottom: 4px;
 }
 
-.repo-sector-div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 6px;
+/* ── Card Header (above image) ── */
+.repo-card-header {
+  padding: 0.45rem 1.2rem 0.4rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+}
+
+.repo-sector-tag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 20px;
+  margin-top: 4px;
 }
 
 .repo-name {
-  font-size: 17px;
+  font-size: 16px;
+  font-family: "Google Sans", sans-serif;
   font-weight: 700;
-  font-family: "Google Sans Medium", sans-serif;
   margin: 0;
-}
-
-.repo-sector {
-  font-size: 13px;
-  margin: 0;
-  opacity: 0.75;
+  line-height: 1.3;
 }
 
 .repo-description {
-  font-size: 13.5px;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1.55;
   margin: 0 0 8px;
   display: -webkit-box;
@@ -111,81 +118,31 @@
 
 .repo-buttons {
   display: flex;
-  gap: 0;
   margin-top: auto;
   border-top: 1px solid;
 }
 
-.repo-btn-half {
-  flex: 1;
-  border-radius: 0;
-  justify-content: center;
-  padding: 12px 8px;
-}
-
-.repo-card-div .view-project-button:first-child {
-  border-bottom-left-radius: 16px;
-}
-
-.repo-card-div .source-code-button:last-child {
-  border-bottom-right-radius: 16px;
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
-}
-
-/* Popup warning */
-.repo-popup {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  margin: 0 1rem 0.6rem;
-  padding: 10px 14px;
-  border-radius: 10px;
-  border: 1.5px solid;
-  font-size: 12.5px;
-  line-height: 1.5;
-  animation: popup-in 0.25s ease;
-}
-
-.repo-popup-icon {
-  flex-shrink: 0;
-  font-size: 15px;
-  margin-top: 1px;
-}
-
-@keyframes popup-in {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-/* Scoped to repo card only — prevents override of other components */
-.repo-card-div .view-project-button,
-.repo-card-div .source-code-button {
+.repo-card-div .view-project-button {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  font-size: 13px;
-  font-weight: 600;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  font-size: 13.5px;
+  letter-spacing: 0.2px;
   cursor: pointer;
-  font-family: inherit;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
   transition: opacity 0.2s, filter 0.2s;
-}
-
-.repo-card-div .view-project-button {
   border: none;
+  padding: 15px 12px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
-.repo-card-div .source-code-button {
-  background: transparent;
-  border-width: 0 0 0 1.5px;
-  border-style: solid;
-}
-
-.repo-card-div .view-project-button:hover,
-.repo-card-div .source-code-button:hover {
-  opacity: 0.85;
-  filter: brightness(1.08);
+.repo-card-div .view-project-button:hover {
+  opacity: 0.88;
+  filter: brightness(1.07);
 }
 
 @media (max-width: 768px) {

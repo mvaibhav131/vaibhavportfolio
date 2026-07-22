@@ -105,7 +105,7 @@ class Projects extends Component<PageProps> {
           </div>
         ) : null}
 
-        <div className="repo-cards-div-main">
+        <div className="publications-cards-div">
           {publications.data.map((pub, i) => (
             <PublicationCard key={i} pub={pub} theme={theme} />
           ))}
